@@ -8,7 +8,7 @@
       <link href="/2019/10/29/threeerrors/"/>
       <url>/2019/10/29/threeerrors/</url>
       
-        <content type="html"><![CDATA[<blockquote><p>Spring cleaning, Summer air out, Fall sweeping?</p></blockquote><p>This site has three errors: dead URL links which read 404. I find it very strange because the on the development server everything is up and running. I suppose it’s a perfect time to say “it works on my machine!”. Maybe a force update will help it recover because I am at a complete lost on this one. </p><h2 id="Checklist"><a href="#Checklist" class="headerlink" title="Checklist"></a>Checklist</h2><ul><li>The html is present</li><li>The hyperlink is correct</li><li>It works on the development server</li><li>Odd</li></ul>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>Spring cleaning, Summer air out, Fall sweeping?</p></blockquote><p>This site has three errors: dead URL links which read 404. I find it very strange because the on the development server everything is up and running. I suppose it’s a perfect time to say “it works on my machine!”. Maybe a force update will help it recover because I am at a complete lost on this one. </p><h1 id="Checklist"><a href="#Checklist" class="headerlink" title="Checklist"></a>Checklist</h1><ul><li>The html is present</li><li>The hyperlink is correct</li><li>It works on the development server</li><li>Force update?</li></ul><h1 id="Update"><a href="#Update" class="headerlink" title="Update"></a>Update</h1><p>Force update didn’t work. I figured it would have no effect since all I was doing is uploading the same error. Since everything is working on the dev server, I had to look for clues. I came up with Capitalization. The post that were causing errors had capitals in their URLs. I gave all of them lower case names. Ideally, I would like to rename all the URLs into something more simple; keeping the date and only changing the long winded path names.</p><p><strong>Why</strong> not now? Because I don’t want to mess with googles indexing. Maybe I should do it now and have google re-index the site map now than later. Also, changing some script code in the process. Sure why not. Can I do it all before the next day? After reviewing what needs to be done. I would rather not rush it. Hexo stores all the files in one directory. I can’t have multiple files with the same name. I will have to create I file checker before each new entry. I plan this out.</p><h1 id="Checklist-1"><a href="#Checklist-1" class="headerlink" title="Checklist"></a>Checklist</h1><ul><li>Leave current file names</li><li>Create a file checker; each new entry; one word paths?</li></ul>]]></content>
       
       
       <categories>
@@ -49,9 +49,9 @@
       
         <tags>
             
-            <tag> shell </tag>
-            
             <tag> linux </tag>
+            
+            <tag> shell </tag>
             
             <tag> find </tag>
             
@@ -63,8 +63,8 @@
     
     <entry>
       <title>Easy install Ubuntu 19.10</title>
-      <link href="/2019/10/26/easyinstallubuntu19.10/"/>
-      <url>/2019/10/26/easyinstallubuntu19.10/</url>
+      <link href="/2019/10/26/easyinstallubuntu1910/"/>
+      <url>/2019/10/26/easyinstallubuntu1910/</url>
       
         <content type="html"><![CDATA[<p>Just installed  Ubuntu 19.10 via VMware easy install. The reason behind the installation is for practice labs. Ubuntu 19.10 might be a little too new for practice labs but we will see. Speaking of seeing, watch me set and unset an environment variable on the newly installed OS! </p><p><strong>BONUS</strong>: the output of <code>set</code> and <code>export</code> are sent through named pipes. </p><iframe width="100%" height="315" src="https://www.youtube.com/embed/71hjBXGxH7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
       
@@ -179,8 +179,8 @@
     
     <entry>
       <title>Booting with MDT</title>
-      <link href="/2019/10/02/workingwithmDT/"/>
-      <url>/2019/10/02/workingwithmDT/</url>
+      <link href="/2019/10/02/workingwithmdt/"/>
+      <url>/2019/10/02/workingwithmdt/</url>
       
         <content type="html"><![CDATA[<p>I got a chance to deploy my first pxe-boot installation. I installed Windows 10 Enterprise on a Hyper-V virtual machine. </p><a id="more"></a><p>I would try it on a bare bone but the current set up is complicated: wifi, shared internet over thunderbolt, cross over cable. I guess what I am trying to say is that it is not connected to a switch? Wait! I just disconnect the Ethernet and connect the test unit. Maybe later.</p><p>I will document my notes on a new menu link above. I am thinking of calling it Windows and you will find it at the top soon. </p><p>Yes, I would like consider myself a GNU/Linux guy but it seems like I’m “forced” to toggle all three: Unix/Unix-like(macOS, FreeBSD), GNU/Linux, Windows.</p><p><img src="/images/MDT.png" alt="over dhcp"></p>]]></content>
       
@@ -540,9 +540,9 @@
       
         <tags>
             
-            <tag> python </tag>
-            
             <tag> scripting </tag>
+            
+            <tag> python </tag>
             
         </tags>
       
@@ -689,11 +689,11 @@
       
         <tags>
             
+            <tag> scripting </tag>
+            
             <tag> bash </tag>
             
             <tag> shell </tag>
-            
-            <tag> scripting </tag>
             
         </tags>
       
@@ -784,8 +784,8 @@
     
     <entry>
       <title>macOS console messages</title>
-      <link href="/2019/07/22/macOSconsolemessages/"/>
-      <url>/2019/07/22/macOSconsolemessages/</url>
+      <link href="/2019/07/22/consolemessages/"/>
+      <url>/2019/07/22/consolemessages/</url>
       
         <content type="html"><![CDATA[<p>A small reminder to myself. I did something I instantly regretted: I opened the macOS console. The logs read fsctl error some thing some thing space deleted cache something. I “fixed” it by turning off istats disk monitor. </p>]]></content>
       
@@ -894,8 +894,8 @@
     
     <entry>
       <title>Site cleanup</title>
-      <link href="/2019/07/11/Sitecleanup/"/>
-      <url>/2019/07/11/Sitecleanup/</url>
+      <link href="/2019/07/11/sitecleanup/"/>
+      <url>/2019/07/11/sitecleanup/</url>
       
         <content type="html"><![CDATA[<p>Cleaned up some tags, and categories. I wanted to move the personal category to the bottom but I honestly couldn’t decide on a word. Actually, I just came up with the word unique for the new category. It is not at the bottom but it works for me.</p>]]></content>
       
@@ -952,8 +952,8 @@
     
     <entry>
       <title>Debian buster</title>
-      <link href="/2019/07/07/Debianbuster/"/>
-      <url>/2019/07/07/Debianbuster/</url>
+      <link href="/2019/07/07/debianbuster/"/>
+      <url>/2019/07/07/debianbuster/</url>
       
         <content type="html"><![CDATA[<p>Debian buster was released! I will give it a try today.</p>]]></content>
       
@@ -981,8 +981,8 @@
     
     <entry>
       <title>Independence Day</title>
-      <link href="/2019/07/04/IndependenceDay/"/>
-      <url>/2019/07/04/IndependenceDay/</url>
+      <link href="/2019/07/04/independenceday/"/>
+      <url>/2019/07/04/independenceday/</url>
       
         <content type="html"><![CDATA[<p>I wanted to do some free coding today but most of my programming time is spent on free coding; also I am trying to build a habit of posting something new every day. I missed two days but I am trying.  The hardest part is finding something new to write about.</p>]]></content>
       
@@ -1008,8 +1008,8 @@
     
     <entry>
       <title>Organizing ideas</title>
-      <link href="/2019/07/02/Organizingideas/"/>
-      <url>/2019/07/02/Organizingideas/</url>
+      <link href="/2019/07/02/organizingideas/"/>
+      <url>/2019/07/02/organizingideas/</url>
       
         <content type="html"><![CDATA[<p>Lightly going over some todos. Seems like I have to many things on my mind so I will have to do a brain dump either this month or soon. Also I would like to create a new schedule so that I can start up some summer projects. I have a video of my playing with a raspberry pi but I haven’t setup of videos yet. I might wait until mid month to start videos.</p>]]></content>
       
@@ -1135,9 +1135,9 @@
       
         <tags>
             
-            <tag> command </tag>
-            
             <tag> git </tag>
+            
+            <tag> command </tag>
             
         </tags>
       
@@ -1251,46 +1251,13 @@
       
         <tags>
             
-            <tag> hexo </tag>
-            
             <tag> javascript </tag>
+            
+            <tag> hexo </tag>
             
             <tag> icarus </tag>
             
             <tag> ejs </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>So many stashes</title>
-      <link href="/2019/06/21/Somanystashes/"/>
-      <url>/2019/06/21/Somanystashes/</url>
-      
-        <content type="html"><![CDATA[<p><code>git add . &amp;&amp; git stash</code></p><p> all night long.</p><blockquote><p>Photo by Fabian Grohs</p></blockquote>]]></content>
-      
-      
-      <categories>
-          
-          <category> unique </category>
-          
-          <category> thought </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> bash </tag>
-            
-            <tag> shell </tag>
-            
-            <tag> command </tag>
-            
-            <tag> git </tag>
             
         </tags>
       
@@ -1326,6 +1293,39 @@
     
     
     <entry>
+      <title>So many stashes</title>
+      <link href="/2019/06/21/somanystashes/"/>
+      <url>/2019/06/21/somanystashes/</url>
+      
+        <content type="html"><![CDATA[<p><code>git add . &amp;&amp; git stash</code></p><p> all night long.</p><blockquote><p>Photo by Fabian Grohs</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> unique </category>
+          
+          <category> thought </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> bash </tag>
+            
+            <tag> shell </tag>
+            
+            <tag> git </tag>
+            
+            <tag> command </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>A new framework, a new site</title>
       <link href="/2019/06/20/anewframework/"/>
       <url>/2019/06/20/anewframework/</url>
@@ -1344,9 +1344,9 @@
       
         <tags>
             
-            <tag> hexo </tag>
-            
             <tag> javascript </tag>
+            
+            <tag> hexo </tag>
             
             <tag> icarus </tag>
             
@@ -1358,8 +1358,8 @@
     
     <entry>
       <title>Internet down</title>
-      <link href="/2019/06/12/Internetdown/"/>
-      <url>/2019/06/12/Internetdown/</url>
+      <link href="/2019/06/12/internetdown/"/>
+      <url>/2019/06/12/internetdown/</url>
       
         <content type="html"><![CDATA[<p>Having Internet trouble! Now fixed.</p><p>It was the coaxial splitter. I need to replace it but for now the cable is connected directly into the wall.</p>]]></content>
       
@@ -1455,8 +1455,8 @@
     
     <entry>
       <title>Battle of the Hello Worlds</title>
-      <link href="/2019/05/23/BattleoftheHelloWorlds/"/>
-      <url>/2019/05/23/BattleoftheHelloWorlds/</url>
+      <link href="/2019/05/23/helloworlds/"/>
+      <url>/2019/05/23/helloworlds/</url>
       
         <content type="html"><![CDATA[<p>Which computer langauge runs the fastest?</p><h1 id="Lets-ask-the-computer"><a href="#Lets-ask-the-computer" class="headerlink" title="Lets ask the computer."></a>Lets ask the computer.</h1><blockquote><p>Who is the fastest of them all?</p></blockquote><figure class="highlight sh hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> $(find . ! -name <span class="hljs-string">"*.js"</span> -<span class="hljs-built_in">print</span> | sort);\</span><br><span class="line"><span class="hljs-keyword">do</span> <span class="hljs-built_in">echo</span> <span class="hljs-string">"From: <span class="hljs-variable">$i</span>"</span> &gt;&gt; ../fastest; &#123;time ./<span class="hljs-variable">$i</span>;&#125; 2&gt;&gt; ../fastest; <span class="hljs-built_in">echo</span> <span class="hljs-string">" "</span>; \</span><br><span class="line"><span class="hljs-keyword">done</span> &amp;&amp; i=jsApp.js; <span class="hljs-built_in">echo</span> <span class="hljs-string">"From: <span class="hljs-variable">$i</span>"</span> &gt;&gt; ../fastest;&#123;time node ./<span class="hljs-variable">$i</span>&#125; 2&gt;&gt; ../fastest; cat ../fastest</span><br></pre></td></tr></table></figure><a id="more"></a><h1 id="This-is-what-the-computer-said"><a href="#This-is-what-the-computer-said" class="headerlink" title="This is what the computer said."></a>This is what the computer said.</h1><blockquote><p>From fastest to slowest: {Bash, C, C++} Swift compiled, Python, Swift as script, and JavaScript. </p></blockquote><figure class="highlight sh hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">From: .</span><br><span class="line">From: ./bashScript.sh</span><br><span class="line">./<span class="hljs-variable">$i</span>  0.00s user 0.00s system 71% cpu 0.004 total</span><br><span class="line">From: ./cPlus</span><br><span class="line">./<span class="hljs-variable">$i</span>  0.00s user 0.00s system 56% cpu 0.004 total</span><br><span class="line">From: ./cProgram</span><br><span class="line">./<span class="hljs-variable">$i</span>  0.00s user 0.00s system 56% cpu 0.004 total</span><br><span class="line">From: ./pythonProgram.py</span><br><span class="line">./<span class="hljs-variable">$i</span>  0.03s user 0.01s system 85% cpu 0.048 total</span><br><span class="line">From: ./swiftApp</span><br><span class="line">./<span class="hljs-variable">$i</span>  0.01s user 0.00s system 80% cpu 0.014 total</span><br><span class="line">From: ./swiftApp.swift</span><br><span class="line">./<span class="hljs-variable">$i</span>  0.03s user 0.02s system 85% cpu 0.064 total</span><br><span class="line">From: jsApp.js</span><br><span class="line">node ./<span class="hljs-variable">$i</span>  0.08s user 0.02s system 92% cpu 0.105 total</span><br></pre></td></tr></table></figure><h1 id="Bonus"><a href="#Bonus" class="headerlink" title="Bonus"></a>Bonus</h1><p>Who spends the most cpu time xx%?</p><blockquote><p>From least to most talkative: {C, C++}, Bash, Swift compiled, {Python, Swift as Script} and JavaScript. </p></blockquote><h1 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h1><script src="//gist.github.com/c53e5ea2915b9118ca9ca63acece4f38.js"></script><script src="//gist.github.com/8af813ef75535a8093de2d3741cf73da.js"></script><script src="//gist.github.com/ddbe772b10d17d27fdbaede628c06ee9.js"></script><script src="//gist.github.com/b4cd51b2dde5ca82bdd2cbfc70505847.js"></script><script src="//gist.github.com/0bb073f90c488860a5ee7b9423467201.js"></script><script src="//gist.github.com/ac88cc549ba027ad30fe28c6c504b889.js"></script><blockquote><p>Photo by Taylor Vick</p></blockquote>]]></content>
       
@@ -1478,11 +1478,11 @@
             
             <tag> bash </tag>
             
+            <tag> python </tag>
+            
             <tag> swift </tag>
             
             <tag> js </tag>
-            
-            <tag> python </tag>
             
         </tags>
       
@@ -1492,8 +1492,8 @@
     
     <entry>
       <title>C++ loop; A day counter</title>
-      <link href="/2019/05/18/Adaycounter/"/>
-      <url>/2019/05/18/Adaycounter/</url>
+      <link href="/2019/05/18/daycounter/"/>
+      <url>/2019/05/18/daycounter/</url>
       
         <content type="html"><![CDATA[<p>How to count days from today in a loop.</p><p>I need to count the days from today. So if today was Monday and I wanted<br>to advanced 342 days, what day would it land on? Sunday.</p><script src="//gist.github.com/d733b211b78dcea7bc2016444b38458c.js"></script><blockquote><p>Photo by Crissy Jarvis</p></blockquote>]]></content>
       
@@ -1538,9 +1538,9 @@
       
         <tags>
             
-            <tag> bash </tag>
-            
             <tag> scripting </tag>
+            
+            <tag> bash </tag>
             
         </tags>
       
@@ -1594,9 +1594,9 @@
       
         <tags>
             
-            <tag> bash </tag>
-            
             <tag> scripting </tag>
+            
+            <tag> bash </tag>
             
         </tags>
       
@@ -1718,9 +1718,9 @@
             
             <tag> bash </tag>
             
-            <tag> command </tag>
-            
             <tag> git </tag>
+            
+            <tag> command </tag>
             
         </tags>
       
@@ -1774,9 +1774,9 @@
       
         <tags>
             
-            <tag> bash </tag>
-            
             <tag> scripting </tag>
+            
+            <tag> bash </tag>
             
         </tags>
       

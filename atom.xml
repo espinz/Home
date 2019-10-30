@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://espinz.com/"/>
-  <updated>2019-10-30T05:34:29.964Z</updated>
+  <updated>2019-10-30T06:29:37.696Z</updated>
   <id>https://espinz.com/</id>
   
   <author>
@@ -21,19 +21,15 @@
     <link href="https://espinz.com/2019/10/29/threeerrors/"/>
     <id>https://espinz.com/2019/10/29/threeerrors/</id>
     <published>2019-10-30T05:00:18.000Z</published>
-    <updated>2019-10-30T05:34:29.964Z</updated>
+    <updated>2019-10-30T06:29:37.696Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>Spring cleaning, Summer air out, Fall sweeping?</p></blockquote><p>This site has three errors: dead URL links which read 404. I find it very strange because the on the development server everything is up and running. I suppose it’s a perfect time to say “it works on my machine!”. Maybe a force update will help it recover because I am at a complete lost on this one. </p><h2 id="Checklist"><a href="#Checklist" class="headerlink" title="Checklist"></a>Checklist</h2><ul><li>The html is present</li><li>The hyperlink is correct</li><li>It works on the development server</li><li>Odd</li></ul>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>Spring cleaning, Summer air out, Fall sweeping?</p></blockquote><p>This site has three errors: dead URL links which read 404. I find it very strange because the on the development server everything is up and running. I suppose it’s a perfect time to say “it works on my machine!”. Maybe a force update will help it recover because I am at a complete lost on this one. </p><h1 id="Checklist"><a href="#Checklist" class="headerlink" title="Checklist"></a>Checklist</h1><ul><li>The html is present</li><li>The hyperlink is correct</li><li>It works on the development server</li><li>Force update?</li></ul><h1 id="Update"><a href="#Update" class="headerlink" title="Update"></a>Update</h1><p>Force update didn’t work. I figured it would have no effect since all I was doing is uploading the same error. Since everything is working on the dev server, I had to look for clues. I came up with Capitalization. The post that were causing errors had capitals in their URLs. I gave all of them lower case names. Ideally, I would like to rename all the URLs into something more simple; keeping the date and only changing the long winded path names.</p><p><strong>Why</strong> not now? Because I don’t want to mess with googles indexing. Maybe I should do it now and have google re-index the site map now than later. Also, changing some script code in the process. Sure why not. Can I do it all before the next day? After reviewing what needs to be done. I would rather not rush it. Hexo stores all the files in one directory. I can’t have multiple files with the same name. I will have to create I file checker before each new entry. I plan this out.</p><h1 id="Checklist-1"><a href="#Checklist-1" class="headerlink" title="Checklist"></a>Checklist</h1><ul><li>Leave current file names</li><li>Create a file checker; each new entry; one word paths?</li></ul>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;blockquote&gt;
-&lt;p&gt;Spring cleaning, Summer air out, Fall sweeping?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This site has three errors: dead URL links which read 4
-      
+      Spring cleaning, Summer air out, Fall sweeping?
+
+This site has three errors: dead URL links which read 404. I find it very strange because the on the development server everything is up and running. I suppose it’s a perfect time to say “it works on my machine!”. Maybe a force update will help it rec
     
     </summary>
     
@@ -70,9 +66,9 @@
       <category term="shell" scheme="https://espinz.com/categories/terminal/shell/"/>
     
     
-      <category term="shell" scheme="https://espinz.com/tags/shell/"/>
-    
       <category term="linux" scheme="https://espinz.com/tags/linux/"/>
+    
+      <category term="shell" scheme="https://espinz.com/tags/shell/"/>
     
       <category term="find" scheme="https://espinz.com/tags/find/"/>
     
@@ -80,8 +76,8 @@
   
   <entry>
     <title>Easy install Ubuntu 19.10</title>
-    <link href="https://espinz.com/2019/10/26/easyinstallubuntu19.10/"/>
-    <id>https://espinz.com/2019/10/26/easyinstallubuntu19.10/</id>
+    <link href="https://espinz.com/2019/10/26/easyinstallubuntu1910/"/>
+    <id>https://espinz.com/2019/10/26/easyinstallubuntu1910/</id>
     <published>2019-10-26T14:00:53.000Z</published>
     <updated>2019-10-27T02:10:59.052Z</updated>
     
@@ -191,8 +187,8 @@
   
   <entry>
     <title>Booting with MDT</title>
-    <link href="https://espinz.com/2019/10/02/workingwithmDT/"/>
-    <id>https://espinz.com/2019/10/02/workingwithmDT/</id>
+    <link href="https://espinz.com/2019/10/02/workingwithmdt/"/>
+    <id>https://espinz.com/2019/10/02/workingwithmdt/</id>
     <published>2019-10-02T21:00:24.000Z</published>
     <updated>2019-10-02T22:07:43.635Z</updated>
     
@@ -544,9 +540,9 @@
       <category term="updates" scheme="https://espinz.com/categories/website/updates/"/>
     
     
-      <category term="python" scheme="https://espinz.com/tags/python/"/>
-    
       <category term="scripting" scheme="https://espinz.com/tags/scripting/"/>
+    
+      <category term="python" scheme="https://espinz.com/tags/python/"/>
     
   </entry>
   

@@ -2,31 +2,31 @@
 <html lang="en">
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-<title>Battle of the Hello Worlds - My digital journal</title>
+<title>macOS console messages - My digital journal</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
-    <meta name="description" content="Which computer langauge runs the fastest? Lets ask the computer. Who is the fastest of them all?  123for i in $(find . ! -name &quot;*.js&quot; -print | sort);\do echo &quot;From: $i&quot; &amp;gt;&amp;gt; ../fastest; &amp;#123;time">
-<meta name="keywords" content="cpp,c,bash,swift,js,python">
+    <meta name="description" content="A small reminder to myself. I did something I instantly regretted: I opened the macOS console. The logs read fsctl error some thing some thing space deleted cache something. I “fixed” it by turning of">
+<meta name="keywords" content="console">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Battle of the Hello Worlds">
-<meta property="og:url" content="https://espinz.com/2019/05/23/BattleoftheHelloWorlds/index.html">
+<meta property="og:title" content="macOS console messages">
+<meta property="og:url" content="https://espinz.com/2019/07/22/consolemessages/index.html">
 <meta property="og:site_name" content="My digital journal">
-<meta property="og:description" content="Which computer langauge runs the fastest? Lets ask the computer. Who is the fastest of them all?  123for i in $(find . ! -name &quot;*.js&quot; -print | sort);\do echo &quot;From: $i&quot; &amp;gt;&amp;gt; ../fastest; &amp;#123;time">
+<meta property="og:description" content="A small reminder to myself. I did something I instantly regretted: I opened the macOS console. The logs read fsctl error some thing some thing space deleted cache something. I “fixed” it by turning of">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://espinz.com/images/og_image.png">
-<meta property="og:updated_time" content="2019-07-27T04:47:57.645Z">
+<meta property="og:updated_time" content="2019-09-05T03:07:03.058Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Battle of the Hello Worlds">
-<meta name="twitter:description" content="Which computer langauge runs the fastest? Lets ask the computer. Who is the fastest of them all?  123for i in $(find . ! -name &quot;*.js&quot; -print | sort);\do echo &quot;From: $i&quot; &amp;gt;&amp;gt; ../fastest; &amp;#123;time">
+<meta name="twitter:title" content="macOS console messages">
+<meta name="twitter:description" content="A small reminder to myself. I did something I instantly regretted: I opened the macOS console. The logs read fsctl error some thing some thing space deleted cache something. I “fixed” it by turning of">
 <meta name="twitter:image" content="https://espinz.com/images/og_image.png">
 
 
 
 
 
-<link rel="alternative" href="/atom.xml" title="Battle of the Hello Worlds" type="application/atom+xml">
+<link rel="alternative" href="/atom.xml" title="macOS console messages" type="application/atom+xml">
 
 
 
@@ -100,7 +100,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="/images/apple-touch-icon.png" alt="Battle of the Hello Worlds" height="28">
+                <img src="/images/apple-touch-icon.png" alt="macOS console messages" height="28">
             
             </a>
         </div>
@@ -125,6 +125,10 @@
             <div class="navbar-end">
                 
                 
+                <a class="navbar-item is-hidden-tablet catalogue" title="Catalogue" href="javascript:;">
+                    <i class="fas fa-list-ul"></i>
+                </a>
+                
                 
                 <a class="navbar-item search" title="Search" href="javascript:;">
                     <i class="fas fa-search"></i>
@@ -144,17 +148,17 @@
         
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-05-23T07:00:00.000Z">2019-05-23</time>
+                <time class="level-item has-text-grey" datetime="2019-07-23T04:00:00.000Z">2019-07-22</time>
                 
                 <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/computer/">computer</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/computer/languages/">languages</a>
+                <a class="has-link-grey -link" href="/categories/os/">os</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/os/macos/">macos</a>
                 </div>
                 
                 
                 <span class="level-item has-text-grey">
                     
                     
-                    a minute read (About 219 words)
+                    a few seconds read (About 38 words)
                 </span>
                 
                 
@@ -163,36 +167,11 @@
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                Battle of the Hello Worlds
+                macOS console messages
             
         </h1>
         <div class="content">
-            <p>Which computer langauge runs the fastest?</p>
-<h1 id="Lets-ask-the-computer"><a href="#Lets-ask-the-computer" class="headerlink" title="Lets ask the computer."></a>Lets ask the computer.</h1><blockquote>
-<p>Who is the fastest of them all?</p>
-</blockquote>
-<figure class="highlight sh hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> $(find . ! -name <span class="hljs-string">"*.js"</span> -<span class="hljs-built_in">print</span> | sort);\</span><br><span class="line"><span class="hljs-keyword">do</span> <span class="hljs-built_in">echo</span> <span class="hljs-string">"From: <span class="hljs-variable">$i</span>"</span> &gt;&gt; ../fastest; &#123;time ./<span class="hljs-variable">$i</span>;&#125; 2&gt;&gt; ../fastest; <span class="hljs-built_in">echo</span> <span class="hljs-string">" "</span>; \</span><br><span class="line"><span class="hljs-keyword">done</span> &amp;&amp; i=jsApp.js; <span class="hljs-built_in">echo</span> <span class="hljs-string">"From: <span class="hljs-variable">$i</span>"</span> &gt;&gt; ../fastest;&#123;time node ./<span class="hljs-variable">$i</span>&#125; 2&gt;&gt; ../fastest; cat ../fastest</span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-<h1 id="This-is-what-the-computer-said"><a href="#This-is-what-the-computer-said" class="headerlink" title="This is what the computer said."></a>This is what the computer said.</h1><blockquote>
-<p>From fastest to slowest: {Bash, C, C++} Swift compiled, Python, Swift as script, and JavaScript. </p>
-</blockquote>
-<figure class="highlight sh hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">From: .</span><br><span class="line">From: ./bashScript.sh</span><br><span class="line">./<span class="hljs-variable">$i</span>  0.00s user 0.00s system 71% cpu 0.004 total</span><br><span class="line">From: ./cPlus</span><br><span class="line">./<span class="hljs-variable">$i</span>  0.00s user 0.00s system 56% cpu 0.004 total</span><br><span class="line">From: ./cProgram</span><br><span class="line">./<span class="hljs-variable">$i</span>  0.00s user 0.00s system 56% cpu 0.004 total</span><br><span class="line">From: ./pythonProgram.py</span><br><span class="line">./<span class="hljs-variable">$i</span>  0.03s user 0.01s system 85% cpu 0.048 total</span><br><span class="line">From: ./swiftApp</span><br><span class="line">./<span class="hljs-variable">$i</span>  0.01s user 0.00s system 80% cpu 0.014 total</span><br><span class="line">From: ./swiftApp.swift</span><br><span class="line">./<span class="hljs-variable">$i</span>  0.03s user 0.02s system 85% cpu 0.064 total</span><br><span class="line">From: jsApp.js</span><br><span class="line">node ./<span class="hljs-variable">$i</span>  0.08s user 0.02s system 92% cpu 0.105 total</span><br></pre></td></tr></table></figure>
-
-<h1 id="Bonus"><a href="#Bonus" class="headerlink" title="Bonus"></a>Bonus</h1><p>Who spends the most cpu time xx%?</p>
-<blockquote>
-<p>From least to most talkative: {C, C++}, Bash, Swift compiled, {Python, Swift as Script} and JavaScript. </p>
-</blockquote>
-<h1 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h1><script src="//gist.github.com/c53e5ea2915b9118ca9ca63acece4f38.js"></script>
-<script src="//gist.github.com/8af813ef75535a8093de2d3741cf73da.js"></script>
-<script src="//gist.github.com/ddbe772b10d17d27fdbaede628c06ee9.js"></script>
-<script src="//gist.github.com/b4cd51b2dde5ca82bdd2cbfc70505847.js"></script>
-<script src="//gist.github.com/0bb073f90c488860a5ee7b9423467201.js"></script>
-<script src="//gist.github.com/ac88cc549ba027ad30fe28c6c504b889.js"></script>
-
-<blockquote>
-<p>Photo by Taylor Vick</p>
-</blockquote>
+            <p>A small reminder to myself. I did something I instantly regretted: I opened the macOS console. The logs read fsctl error some thing some thing space deleted cache something. I “fixed” it by turning off istats disk monitor. </p>
 
         </div>
         
@@ -200,7 +179,7 @@
             <div class="level-start">
                 <div class="level-item">
                     <span class="is-size-6 has-text-grey has-mr-7">#</span>
-                    <a class="has-link-grey -link" href="/tags/bash/">bash</a>, <a class="has-link-grey -link" href="/tags/c/">c</a>, <a class="has-link-grey -link" href="/tags/cpp/">cpp</a>, <a class="has-link-grey -link" href="/tags/js/">js</a>, <a class="has-link-grey -link" href="/tags/python/">python</a>, <a class="has-link-grey -link" href="/tags/swift/">swift</a>
+                    <a class="has-link-grey -link" href="/tags/console/">console</a>
                 </div>
             </div>
         </div>
@@ -218,16 +197,16 @@
     <div class="level post-navigation is-flex-wrap is-mobile">
         
         <div class="level-start">
-            <a class="level level-item has-link-grey  article-nav-prev" href="/2019/05/30/lsdexperience/">
+            <a class="level level-item has-link-grey  article-nav-prev" href="/2019/07/25/learningtheusefulnessoffunctions/">
                 <i class="level-item fas fa-chevron-left"></i>
-                <span class="level-item">My experience with LSD</span>
+                <span class="level-item">Learning the usefulness of functions</span>
             </a>
         </div>
         
         
         <div class="level-end">
-            <a class="level level-item has-link-grey  article-nav-next" href="/2019/05/18/Adaycounter/">
-                <span class="level-item">C++ loop; A day counter</span>
+            <a class="level level-item has-link-grey  article-nav-next" href="/2019/07/20/differentfileextensions/">
+                <span class="level-item">Different file extensions</span>
                 <i class="level-item fas fa-chevron-right"></i>
             </a>
         </div>
@@ -291,7 +270,7 @@
         
         <article class="media">
             
-            <a href="/2019/10/26/easyinstallubuntu19.10/" class="media-left">
+            <a href="/2019/10/26/easyinstallubuntu1910/" class="media-left">
                 <p class="image is-64x64">
                     <img class="thumbnail" src="/images/2019-10-26.jpg" alt="Easy install Ubuntu 19.10">
                 </p>
@@ -300,7 +279,7 @@
             <div class="media-content">
                 <div class="content">
                     <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-10-26T14:00:53.000Z">2019-10-26</time></div>
-                    <a href="/2019/10/26/easyinstallubuntu19.10/" class="has-link-black-ter is-size-6">Easy install Ubuntu 19.10</a>
+                    <a href="/2019/10/26/easyinstallubuntu1910/" class="has-link-black-ter is-size-6">Easy install Ubuntu 19.10</a>
                     <p class="is-size-7 is-uppercase">
                         <a class="has-link-grey -link" href="/categories/os/">os</a> / <a class="has-link-grey -link" href="/categories/os/linux/">linux</a>
                     </p>
@@ -564,6 +543,17 @@
 </div>
     
         
+<div class="card widget" id="toc">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                Catalogue
+            </h3>
+            
+        </div>
+    </div>
+</div>
+
     
         
 <div class="card widget">
@@ -626,7 +616,7 @@
         
         <article class="media">
             
-            <a href="/2019/10/26/easyinstallubuntu19.10/" class="media-left">
+            <a href="/2019/10/26/easyinstallubuntu1910/" class="media-left">
                 <p class="image is-64x64">
                     <img class="thumbnail" src="/images/2019-10-26.jpg" alt="Easy install Ubuntu 19.10">
                 </p>
@@ -635,7 +625,7 @@
             <div class="media-content">
                 <div class="content">
                     <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-10-26T14:00:53.000Z">2019-10-26</time></div>
-                    <a href="/2019/10/26/easyinstallubuntu19.10/" class="has-link-black-ter is-size-6">Easy install Ubuntu 19.10</a>
+                    <a href="/2019/10/26/easyinstallubuntu1910/" class="has-link-black-ter is-size-6">Easy install Ubuntu 19.10</a>
                     <p class="is-size-7 is-uppercase">
                         <a class="has-link-grey -link" href="/categories/os/">os</a> / <a class="has-link-grey -link" href="/categories/os/linux/">linux</a>
                     </p>
@@ -810,7 +800,7 @@
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
-                    <img src="/images/apple-touch-icon.png" alt="Battle of the Hello Worlds" height="28">
+                    <img src="/images/apple-touch-icon.png" alt="macOS console messages" height="28">
                 
                 </a>
                 <p class="is-size-7">
