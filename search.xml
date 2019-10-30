@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Three errors</title>
+      <link href="/2019/10/29/threeerrors/"/>
+      <url>/2019/10/29/threeerrors/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>Spring cleaning, Summer air out, Fall sweeping?</p></blockquote><p>This site has three errors: dead URL links which read 404. I find it very strange because the on the development server everything is up and running. I suppose it’s a perfect time to say “it works on my machine!”. Maybe a force update will help it recover because I am at a complete lost on this one. </p><h2 id="Checklist"><a href="#Checklist" class="headerlink" title="Checklist"></a>Checklist</h2><ul><li>The html is present</li><li>The hyperlink is correct</li><li>It works on the development server</li><li>Odd</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> website </category>
+          
+          <category> updates </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> espinz </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Explosion of files</title>
       <link href="/2019/10/29/explosionoffiles/"/>
       <url>/2019/10/29/explosionoffiles/</url>
@@ -1224,9 +1251,9 @@
       
         <tags>
             
-            <tag> hexo </tag>
-            
             <tag> javascript </tag>
+            
+            <tag> hexo </tag>
             
             <tag> icarus </tag>
             
@@ -1317,9 +1344,9 @@
       
         <tags>
             
-            <tag> hexo </tag>
-            
             <tag> javascript </tag>
+            
+            <tag> hexo </tag>
             
             <tag> icarus </tag>
             

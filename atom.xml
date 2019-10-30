@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://espinz.com/"/>
-  <updated>2019-10-29T07:38:01.323Z</updated>
+  <updated>2019-10-30T05:34:29.964Z</updated>
   <id>https://espinz.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Three errors</title>
+    <link href="https://espinz.com/2019/10/29/threeerrors/"/>
+    <id>https://espinz.com/2019/10/29/threeerrors/</id>
+    <published>2019-10-30T05:00:18.000Z</published>
+    <updated>2019-10-30T05:34:29.964Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Spring cleaning, Summer air out, Fall sweeping?</p></blockquote><p>This site has three errors: dead URL links which read 404. I find it very strange because the on the development server everything is up and running. I suppose it’s a perfect time to say “it works on my machine!”. Maybe a force update will help it recover because I am at a complete lost on this one. </p><h2 id="Checklist"><a href="#Checklist" class="headerlink" title="Checklist"></a>Checklist</h2><ul><li>The html is present</li><li>The hyperlink is correct</li><li>It works on the development server</li><li>Odd</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;Spring cleaning, Summer air out, Fall sweeping?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This site has three errors: dead URL links which read 4
+      
+    
+    </summary>
+    
+      <category term="website" scheme="https://espinz.com/categories/website/"/>
+    
+      <category term="updates" scheme="https://espinz.com/categories/website/updates/"/>
+    
+    
+      <category term="espinz" scheme="https://espinz.com/tags/espinz/"/>
+    
+  </entry>
   
   <entry>
     <title>Explosion of files</title>
@@ -549,31 +579,6 @@
       <category term="ttyrec" scheme="https://espinz.com/tags/ttyrec/"/>
     
       <category term="ttygif" scheme="https://espinz.com/tags/ttygif/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python at night</title>
-    <link href="https://espinz.com/2019/08/14/pythonatnight/"/>
-    <id>https://espinz.com/2019/08/14/pythonatnight/</id>
-    <published>2019-08-14T07:00:00.000Z</published>
-    <updated>2019-10-02T21:37:20.894Z</updated>
-    
-    <content type="html"><![CDATA[<p>Working on some python classes. Feels like I been MIA for far too long.<br>Why am I writing this site’s “UI” in python and not in node.js/JavaScript? Remember from my last post? I was getting rusty in python so I decided … who am I kidding? I am terrified of js so I am writing my scripts in python.</p><p>Here is a snippet.</p><a id="more"></a><figure class="highlight python hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">NewPost</span>:</span></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        print(<span class="hljs-string">"Create a new post."</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Clean</span>:</span></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        print(<span class="hljs-string">"Clean up site images."</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Edit</span>:</span></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        print(<span class="hljs-string">"Edit latest post."</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Build</span>:</span></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        print(<span class="hljs-string">"Build and copy into deployment folder."</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Unsplash</span>:</span></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        print(<span class="hljs-string">"Download unsplash images."</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    parser.add_argument(<span class="hljs-string">'--newpost'</span>, action=<span class="hljs-string">"store_true"</span>,</span><br><span class="line">                        help=<span class="hljs-string">'Create a new post.'</span>, default=<span class="hljs-literal">False</span>)</span><br><span class="line">    parser.add_argument(<span class="hljs-string">'--clean'</span>, action=<span class="hljs-string">"store_true"</span>,</span><br><span class="line">                        help=<span class="hljs-string">'Clean up weekly images.'</span>, default=<span class="hljs-literal">False</span>)</span><br><span class="line">    parser.add_argument(<span class="hljs-string">'--edit'</span>, action=<span class="hljs-string">"store_true"</span>,</span><br><span class="line">                        help=<span class="hljs-string">'Edit latest post.'</span>, default=<span class="hljs-literal">False</span>)</span><br><span class="line">    parser.add_argument(<span class="hljs-string">'--build'</span>, action=<span class="hljs-string">"store_true"</span>,</span><br><span class="line">                        help=<span class="hljs-string">'Build and copy into deployment folder.'</span>, default=<span class="hljs-literal">False</span>)</span><br><span class="line">    parser.add_argument(<span class="hljs-string">'--upload'</span>, action=<span class="hljs-string">"store_true"</span>,</span><br><span class="line">                        help=<span class="hljs-string">'Upload to GitHub.'</span>, default=<span class="hljs-literal">False</span>)</span><br><span class="line">    parser.add_argument(<span class="hljs-string">'--image'</span>, action=<span class="hljs-string">"store_true"</span>,</span><br><span class="line">                        help=<span class="hljs-string">'Download unsplash image.'</span>, default=<span class="hljs-literal">False</span>)</span><br><span class="line">    parser.add_argument(<span class="hljs-string">'--watermark'</span>, action=<span class="hljs-string">"store_true"</span>,</span><br><span class="line">                        help=<span class="hljs-string">'Adding watermark to unsplash image.'</span>, default=<span class="hljs-literal">False</span>)</span><br><span class="line">    parser.add_argument(<span class="hljs-string">'--imageformat'</span>, action=<span class="hljs-string">"store_true"</span>,</span><br><span class="line">                        help=<span class="hljs-string">'none replacement.'</span>, default=<span class="hljs-literal">False</span>)</span><br></pre></td></tr></table></figure><h1 id="The-python-script"><a href="#The-python-script" class="headerlink" title="The python script"></a>The python script</h1><p>I’m 170 lines into the script; it is still a work in progress. Once I am done, if there is such a thing as done, I will upload it to GitHub.</p><h1 id="A-bit-about-the-bash-script"><a href="#A-bit-about-the-bash-script" class="headerlink" title="A bit about the bash script"></a>A bit about the bash script</h1><p>The bash script is broken into three files: variables, functions and main; also it has over 600 lines. I transferred the python way of thinking over to bash; or should I say the OOP style over to bash?</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Working on some python classes. Feels like I been MIA for far too long.&lt;br&gt;Why am I writing this site’s “UI” in python and not in node.js/JavaScript? Remember from my last post? I was getting rusty in python so I decided … who am I kidding? I am terrified of js so I am writing my scripts in python.&lt;/p&gt;
-&lt;p&gt;Here is a snippet.&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="computer" scheme="https://espinz.com/categories/computer/"/>
-    
-      <category term="languages" scheme="https://espinz.com/categories/computer/languages/"/>
-    
-    
-      <category term="python" scheme="https://espinz.com/tags/python/"/>
     
   </entry>
   
