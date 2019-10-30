@@ -51,7 +51,7 @@
     <link href="https://espinz.com/2019/10/29/explosionoffiles/"/>
     <id>https://espinz.com/2019/10/29/explosionoffiles/</id>
     <published>2019-10-29T07:00:01.000Z</published>
-    <updated>2019-10-29T07:38:01.323Z</updated>
+    <updated>2019-10-30T05:36:46.761Z</updated>
     
     <content type="html"><![CDATA[<p>I had files that were exploded across the filesystem. My goal was to find them all.</p><script src="//gist.github.com/8d0bb9197d45dfecfb171e6c5de673fb.js"></script>]]></content>
     
@@ -439,7 +439,7 @@
     <link href="https://espinz.com/2019/09/01/somanylibraries/"/>
     <id>https://espinz.com/2019/09/01/somanylibraries/</id>
     <published>2019-09-01T18:00:26.000Z</published>
-    <updated>2019-10-29T07:24:05.127Z</updated>
+    <updated>2019-10-30T05:34:33.604Z</updated>
     
     <content type="html"><![CDATA[<p>So many libraries, so little time. I suppose this is my new month post. I spent some time digging around some libraries. Which ones? <figure class="highlight python hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-keyword">import</span> re, io , os, argparse, requests, subprocess</span><br><span class="line"><span class="hljs-keyword">from</span> PIL <span class="hljs-keyword">import</span> Image, ImageDraw, ImageFilter, ImageFont</span><br><span class="line"><span class="hljs-keyword">from</span> shutil <span class="hljs-keyword">import</span> copyfile</span><br></pre></td></tr></table></figure></p>]]></content>
     
