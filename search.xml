@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Working with vim</title>
+      <link href="/2019/11/02/workingwithvim/"/>
+      <url>/2019/11/02/workingwithvim/</url>
+      
+        <content type="html"><![CDATA[<script src="//gist.github.com/e46caf29b0d5c24eae5208cdbd3093ec.js"></script>]]></content>
+      
+      
+      <categories>
+          
+          <category> terminal </category>
+          
+          <category> shell </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vim </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>New month post</title>
       <link href="/2019/11/01/newmonthpost/"/>
       <url>/2019/11/01/newmonthpost/</url>

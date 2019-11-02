@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://espinz.com/"/>
-  <updated>2019-11-02T10:44:06.551Z</updated>
+  <updated>2019-11-02T11:14:58.730Z</updated>
   <id>https://espinz.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Working with vim</title>
+    <link href="https://espinz.com/2019/11/02/workingwithvim/"/>
+    <id>https://espinz.com/2019/11/02/workingwithvim/</id>
+    <published>2019-11-02T11:00:14.000Z</published>
+    <updated>2019-11-02T11:14:58.730Z</updated>
+    
+    <content type="html"><![CDATA[<script src="//gist.github.com/e46caf29b0d5c24eae5208cdbd3093ec.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script src=&quot;//gist.github.com/e46caf29b0d5c24eae5208cdbd3093ec.js&quot;&gt;&lt;/script&gt;
+
+      
+    
+    </summary>
+    
+      <category term="terminal" scheme="https://espinz.com/categories/terminal/"/>
+    
+      <category term="shell" scheme="https://espinz.com/categories/terminal/shell/"/>
+    
+    
+      <category term="vim" scheme="https://espinz.com/tags/vim/"/>
+    
+  </entry>
   
   <entry>
     <title>New month post</title>
@@ -383,7 +411,7 @@ echo $0 #Result bash
     <link href="https://espinz.com/2019/09/17/slowmonth/"/>
     <id>https://espinz.com/2019/09/17/slowmonth/</id>
     <published>2019-09-17T21:00:25.000Z</published>
-    <updated>2019-09-17T21:46:36.855Z</updated>
+    <updated>2019-11-02T11:15:01.774Z</updated>
     
     <content type="html"><![CDATA[<p>It has been a slow month. I haven’t done much python, or bash, or reading. So what have I been up to? Studying for the new compTIA Linux+ XK0-004. Everything has been dropped and put on the back burner for now. If I do post something it should be about something I learned in my studies.</p>]]></content>
     
@@ -556,32 +584,6 @@ from shutil import copyfile
       <category term="python" scheme="https://espinz.com/tags/python/"/>
     
       <category term="jupyter" scheme="https://espinz.com/tags/jupyter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Finally</title>
-    <link href="https://espinz.com/2019/08/22/finally/"/>
-    <id>https://espinz.com/2019/08/22/finally/</id>
-    <published>2019-08-22T21:00:14.000Z</published>
-    <updated>2019-10-10T02:21:58.994Z</updated>
-    
-    <content type="html"><![CDATA[<p>Well, not quite. I have a few more rough edges to polish.</p>]]></content>
-    
-    <summary type="html">
-    
-      Well, not quite. I have a few more rough edges to polish.
-    
-    </summary>
-    
-      <category term="website" scheme="https://espinz.com/categories/website/"/>
-    
-      <category term="updates" scheme="https://espinz.com/categories/website/updates/"/>
-    
-    
-      <category term="scripting" scheme="https://espinz.com/tags/scripting/"/>
-    
-      <category term="python" scheme="https://espinz.com/tags/python/"/>
     
   </entry>
   

@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://espinz.com/docs/index.html</loc>
+    
+    <lastmod>2019-11-02T11:16:18.671Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/09/17/slowmonth/</loc>
+    
+    <lastmod>2019-11-02T11:15:01.774Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/11/02/workingwithvim/</loc>
+    
+    <lastmod>2019-11-02T11:14:58.730Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://espinz.com/2019/11/01/newmonthpost/</loc>
     
     <lastmod>2019-11-02T10:44:06.551Z</lastmod>
@@ -19,13 +40,6 @@
     <loc>https://espinz.com/2019/09/04/workingwithdockeronwindows/</loc>
     
     <lastmod>2019-11-02T05:55:21.876Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/docs/index.html</loc>
-    
-    <lastmod>2019-10-30T08:19:37.798Z</lastmod>
     
   </url>
   
@@ -215,13 +229,6 @@
     <loc>https://espinz.com/2019/07/26/imagesearchneverends/</loc>
     
     <lastmod>2019-09-23T16:13:25.458Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/09/17/slowmonth/</loc>
-    
-    <lastmod>2019-09-17T21:46:36.855Z</lastmod>
     
   </url>
   
