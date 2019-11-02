@@ -4,11 +4,40 @@
   
     
     <entry>
+      <title>Working with ssh</title>
+      <link href="/2019/11/03/recipes/workingwithssh/"/>
+      <url>/2019/11/03/recipes/workingwithssh/</url>
+      
+        <content type="html"><![CDATA[<p>Some ssh recipes.</p><a id="more"></a><script src="//gist.github.com/d9c1e784d6391f49bcb34f9fa0386714.js"></script>]]></content>
+      
+      
+      <categories>
+          
+          <category> terminal </category>
+          
+          <category> shell </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> shell </tag>
+            
+            <tag> ssh </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Working with vim</title>
       <link href="/2019/11/02/workingwithvim/"/>
       <url>/2019/11/02/workingwithvim/</url>
       
-        <content type="html"><![CDATA[<script src="//gist.github.com/e46caf29b0d5c24eae5208cdbd3093ec.js"></script>]]></content>
+        <content type="html"><![CDATA[<p>Some vim recipes.</p><a id="more"></a><script src="//gist.github.com/e46caf29b0d5c24eae5208cdbd3093ec.js"></script>]]></content>
       
       
       <categories>
@@ -103,9 +132,9 @@
       
         <tags>
             
-            <tag> shell </tag>
-            
             <tag> linux </tag>
+            
+            <tag> shell </tag>
             
             <tag> find </tag>
             
@@ -1247,9 +1276,9 @@
       
         <tags>
             
-            <tag> unsplash </tag>
-            
             <tag> hexo </tag>
+            
+            <tag> unsplash </tag>
             
         </tags>
       
@@ -1305,11 +1334,11 @@
       
         <tags>
             
+            <tag> javascript </tag>
+            
             <tag> hexo </tag>
             
             <tag> icarus </tag>
-            
-            <tag> javascript </tag>
             
             <tag> ejs </tag>
             
@@ -1398,11 +1427,11 @@
       
         <tags>
             
+            <tag> javascript </tag>
+            
             <tag> hexo </tag>
             
             <tag> icarus </tag>
-            
-            <tag> javascript </tag>
             
         </tags>
       
@@ -1448,7 +1477,7 @@
       <link href="/2019/06/06/smallericons/"/>
       <url>/2019/06/06/smallericons/</url>
       
-        <content type="html"><![CDATA[<p>Making springboard show smaller icons.</p><figure class="highlight sh hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">defaults write com.apple.dock autohide-time-modifier -int 0;killall Dock</span><br><span class="line">defaults write com.apple.dock springboard-rows -int 8</span><br><span class="line">defaults write com.apple.dock springboard-columns -int 8;killall Dock</span><br></pre></td></tr></table></figure><blockquote><p>Photo by Markus Spiske</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<p>Making springboard show smaller icons.</p><figure class="highlight sh hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">defaults write com.apple.dock autohide-time-modifier -int 0;killall Dock</span><br><span class="line">defaults write com.apple.dock springboard-rows -int 8</span><br><span class="line">defaults write com.apple.dock springboard-columns -int 8;killall Dock</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>

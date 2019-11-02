@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://espinz.com/"/>
-  <updated>2019-11-02T11:14:58.730Z</updated>
+  <updated>2019-11-03T20:22:38.690Z</updated>
   <id>https://espinz.com/</id>
   
   <author>
@@ -17,21 +17,43 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Working with ssh</title>
+    <link href="https://espinz.com/2019/11/03/recipes/workingwithssh/"/>
+    <id>https://espinz.com/2019/11/03/recipes/workingwithssh/</id>
+    <published>2019-11-03T20:00:01.000Z</published>
+    <updated>2019-11-03T20:22:38.690Z</updated>
+    
+    <content type="html"><![CDATA[<p>Some ssh recipes.</p><a id="more"></a><script src="//gist.github.com/d9c1e784d6391f49bcb34f9fa0386714.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      Some ssh recipes.
+    
+    </summary>
+    
+      <category term="terminal" scheme="https://espinz.com/categories/terminal/"/>
+    
+      <category term="shell" scheme="https://espinz.com/categories/terminal/shell/"/>
+    
+    
+      <category term="shell" scheme="https://espinz.com/tags/shell/"/>
+    
+      <category term="ssh" scheme="https://espinz.com/tags/ssh/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Working with vim</title>
     <link href="https://espinz.com/2019/11/02/workingwithvim/"/>
     <id>https://espinz.com/2019/11/02/workingwithvim/</id>
     <published>2019-11-02T11:00:14.000Z</published>
-    <updated>2019-11-02T11:14:58.730Z</updated>
+    <updated>2019-11-03T20:16:36.319Z</updated>
     
-    <content type="html"><![CDATA[<script src="//gist.github.com/e46caf29b0d5c24eae5208cdbd3093ec.js"></script>]]></content>
+    <content type="html"><![CDATA[<p>Some vim recipes.</p><a id="more"></a><script src="//gist.github.com/e46caf29b0d5c24eae5208cdbd3093ec.js"></script>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;script src=&quot;//gist.github.com/e46caf29b0d5c24eae5208cdbd3093ec.js&quot;&gt;&lt;/script&gt;
-
-      
+      Some vim recipes.
     
     </summary>
     
@@ -114,9 +136,9 @@ This site has three errors: dead URL links which read 404. I find it very strang
       <category term="shell" scheme="https://espinz.com/categories/terminal/shell/"/>
     
     
-      <category term="shell" scheme="https://espinz.com/tags/shell/"/>
-    
       <category term="linux" scheme="https://espinz.com/tags/linux/"/>
+    
+      <category term="shell" scheme="https://espinz.com/tags/shell/"/>
     
       <category term="find" scheme="https://espinz.com/tags/find/"/>
     
@@ -381,7 +403,7 @@ For some context, I will explain how this happened. I started reading about some
     <link href="https://espinz.com/2019/09/23/returningthecurrentshell/"/>
     <id>https://espinz.com/2019/09/23/returningthecurrentshell/</id>
     <published>2019-09-23T15:00:28.000Z</published>
-    <updated>2019-09-23T16:15:14.295Z</updated>
+    <updated>2019-11-03T20:22:42.596Z</updated>
     
     <content type="html"><![CDATA[<p>I always used <code>echo $SHELL</code> to return the current shell. Going over some studying material I rediscovered echo $0. This positional parameter, <code>$0</code>, assigns the current shell into that shell variable.<br>Try it:</p><figure class="highlight sh hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-built_in">echo</span> <span class="hljs-variable">$0</span> <span class="hljs-comment">#Result bash</span></span><br></pre></td></tr></table></figure>]]></content>
     
@@ -558,32 +580,6 @@ from shutil import copyfile
       <category term="opencv" scheme="https://espinz.com/tags/opencv/"/>
     
       <category term="raspberry pi" scheme="https://espinz.com/tags/raspberry-pi/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Jupyter Hello World</title>
-    <link href="https://espinz.com/2019/08/23/jupyterhelloworld/"/>
-    <id>https://espinz.com/2019/08/23/jupyterhelloworld/</id>
-    <published>2019-08-23T07:00:57.000Z</published>
-    <updated>2019-10-18T00:07:21.087Z</updated>
-    
-    <content type="html"><![CDATA[<p>GitHub, Gist, Jupyter. Why not?</p><a id="more"></a><script src="//gist.github.com/bc9f5a4e38f7f566216c6655332b4d9a.js"></script>]]></content>
-    
-    <summary type="html">
-    
-      GitHub, Gist, Jupyter. Why not?
-    
-    </summary>
-    
-      <category term="computer" scheme="https://espinz.com/categories/computer/"/>
-    
-      <category term="languages" scheme="https://espinz.com/categories/computer/languages/"/>
-    
-    
-      <category term="python" scheme="https://espinz.com/tags/python/"/>
-    
-      <category term="jupyter" scheme="https://espinz.com/tags/jupyter/"/>
     
   </entry>
   
