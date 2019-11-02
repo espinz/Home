@@ -2,9 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://espinz.com/2019/11/01/newmonthpost/</loc>
+    
+    <lastmod>2019-11-02T05:59:18.785Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/09/01/gitrecovery/</loc>
+    
+    <lastmod>2019-11-02T05:56:40.358Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/09/04/workingwithdockeronwindows/</loc>
+    
+    <lastmod>2019-11-02T05:55:21.876Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/docs/index.html</loc>
+    
+    <lastmod>2019-10-30T08:19:37.798Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/linux/index.html</loc>
+    
+    <lastmod>2019-10-30T08:06:21.370Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/macos/index.html</loc>
+    
+    <lastmod>2019-10-30T08:06:17.405Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/windows/index.html</loc>
+    
+    <lastmod>2019-10-30T08:06:13.741Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://espinz.com/2019/10/29/threeerrors/</loc>
     
-    <lastmod>2019-10-30T06:29:37.696Z</lastmod>
+    <lastmod>2019-10-30T07:11:20.300Z</lastmod>
     
   </url>
   
@@ -23,23 +72,9 @@
   </url>
   
   <url>
-    <loc>https://espinz.com/docs/index.html</loc>
-    
-    <lastmod>2019-10-29T09:42:59.671Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://espinz.com/about/index.html</loc>
     
     <lastmod>2019-10-29T09:00:52.402Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/09/01/gitrecovery/</loc>
-    
-    <lastmod>2019-10-29T07:23:46.164Z</lastmod>
     
   </url>
   
@@ -198,13 +233,6 @@
   </url>
   
   <url>
-    <loc>https://espinz.com/2019/09/04/workingwithdockeronwindows/</loc>
-    
-    <lastmod>2019-09-05T03:13:27.094Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://espinz.com/2019/07/22/consolemessages/</loc>
     
     <lastmod>2019-09-05T03:07:03.058Z</lastmod>
@@ -303,14 +331,14 @@
   </url>
   
   <url>
-    <loc>https://espinz.com/2019/06/20/anewframework/</loc>
+    <loc>https://espinz.com/2019/06/25/brokenimages/</loc>
     
     <lastmod>2019-07-27T04:47:57.906Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://espinz.com/2019/06/25/brokenimages/</loc>
+    <loc>https://espinz.com/2019/06/20/anewframework/</loc>
     
     <lastmod>2019-07-27T04:47:57.906Z</lastmod>
     

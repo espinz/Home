@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>New month post</title>
+      <link href="/2019/11/01/newmonthpost/"/>
+      <url>/2019/11/01/newmonthpost/</url>
+      
+        <content type="html"><![CDATA[<p>Just finished up on aliases and environment variables. Moving on shell configuration and command redirection. I might order the compTIA certmaster learn for Linux+. I feel like studying is going fine but after reviewing their program layout, I might be able to speed up the process if I use their program.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> compTIA </category>
+          
+          <category> Linux+ </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> thought </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Three errors</title>
       <link href="/2019/10/29/threeerrors/"/>
       <url>/2019/10/29/threeerrors/</url>
@@ -49,9 +76,9 @@
       
         <tags>
             
-            <tag> linux </tag>
-            
             <tag> shell </tag>
+            
+            <tag> linux </tag>
             
             <tag> find </tag>
             
@@ -422,9 +449,9 @@
       
         <tags>
             
-            <tag> shell </tag>
-            
             <tag> git </tag>
+            
+            <tag> shell </tag>
             
         </tags>
       
@@ -1135,9 +1162,9 @@
       
         <tags>
             
-            <tag> git </tag>
-            
             <tag> command </tag>
+            
+            <tag> git </tag>
             
         </tags>
       
@@ -1193,9 +1220,9 @@
       
         <tags>
             
-            <tag> hexo </tag>
-            
             <tag> unsplash </tag>
+            
+            <tag> hexo </tag>
             
         </tags>
       
@@ -1251,11 +1278,11 @@
       
         <tags>
             
-            <tag> javascript </tag>
-            
             <tag> hexo </tag>
             
             <tag> icarus </tag>
+            
+            <tag> javascript </tag>
             
             <tag> ejs </tag>
             
@@ -1313,11 +1340,11 @@
             
             <tag> bash </tag>
             
-            <tag> shell </tag>
+            <tag> command </tag>
             
             <tag> git </tag>
             
-            <tag> command </tag>
+            <tag> shell </tag>
             
         </tags>
       
@@ -1344,11 +1371,11 @@
       
         <tags>
             
-            <tag> javascript </tag>
-            
             <tag> hexo </tag>
             
             <tag> icarus </tag>
+            
+            <tag> javascript </tag>
             
         </tags>
       
@@ -1687,9 +1714,9 @@
       
         <tags>
             
-            <tag> shell </tag>
-            
             <tag> command </tag>
+            
+            <tag> shell </tag>
             
         </tags>
       
@@ -1718,9 +1745,9 @@
             
             <tag> bash </tag>
             
-            <tag> git </tag>
-            
             <tag> command </tag>
+            
+            <tag> git </tag>
             
         </tags>
       
