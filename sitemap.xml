@@ -2,289 +2,310 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://espinz.com/linux/index.html</loc>
+    <loc>https://espinz.com/2019/09/24/variables/</loc>
     
-    <lastmod>2019-11-03T20:35:26.580Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/06/06/smallericons/</loc>
-    
-    <lastmod>2019-11-03T20:34:01.060Z</lastmod>
+    <lastmod>2019-11-09T19:05:34.619Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://espinz.com/macos/index.html</loc>
+    <loc>https://espinz.com/2019/11/09/abasicpythonclass/</loc>
     
-    <lastmod>2019-11-03T20:33:43.572Z</lastmod>
+    <lastmod>2019-11-09T19:05:31.481Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://espinz.com/windows/index.html</loc>
     
-    <lastmod>2019-11-03T20:31:02.261Z</lastmod>
+    <lastmod>2019-11-09T19:01:41.692Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://espinz.com/docs/index.html</loc>
+    <loc>https://espinz.com/macos/index.html</loc>
     
-    <lastmod>2019-11-03T20:28:43.115Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/09/23/returningthecurrentshell/</loc>
-    
-    <lastmod>2019-11-03T20:22:42.596Z</lastmod>
+    <lastmod>2019-11-09T19:01:41.691Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://espinz.com/2019/11/03/recipes/workingwithssh/</loc>
+    <loc>https://espinz.com/linux/index.html</loc>
     
-    <lastmod>2019-11-03T20:22:38.690Z</lastmod>
+    <lastmod>2019-11-09T19:01:41.690Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://espinz.com/2019/11/02/workingwithvim/</loc>
     
-    <lastmod>2019-11-03T20:16:36.319Z</lastmod>
+    <lastmod>2019-11-09T19:01:41.655Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://espinz.com/2019/09/17/slowmonth/</loc>
+    <loc>https://espinz.com/docs/index.html</loc>
     
-    <lastmod>2019-11-02T11:15:01.774Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/11/01/newmonthpost/</loc>
-    
-    <lastmod>2019-11-02T10:44:06.551Z</lastmod>
+    <lastmod>2019-11-09T19:01:41.655Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://espinz.com/2019/09/01/gitrecovery/</loc>
+    <loc>https://espinz.com/2019/10/02/workingwithmDT/</loc>
     
-    <lastmod>2019-11-02T05:56:40.358Z</lastmod>
+    <lastmod>2019-11-09T19:01:41.654Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://espinz.com/2019/09/04/workingwithdockeronwindows/</loc>
     
-    <lastmod>2019-11-02T05:55:21.876Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/10/29/threeerrors/</loc>
-    
-    <lastmod>2019-10-30T07:11:20.300Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/10/29/explosionoffiles/</loc>
-    
-    <lastmod>2019-10-30T05:36:46.761Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/09/01/somanylibraries/</loc>
-    
-    <lastmod>2019-10-30T05:34:33.604Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/about/index.html</loc>
-    
-    <lastmod>2019-10-29T09:00:52.402Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/10/26/easyinstallubuntu1910/</loc>
-    
-    <lastmod>2019-10-27T02:10:59.052Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/08/29/wonderingaboutimages/</loc>
-    
-    <lastmod>2019-10-26T14:24:12.359Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/08/23/jupyterhelloworld/</loc>
-    
-    <lastmod>2019-10-18T00:07:21.087Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/10/17/somanyflashcards/</loc>
-    
-    <lastmod>2019-10-18T00:07:18.010Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/10/09/editorslikevi,vimandnano/</loc>
-    
-    <lastmod>2019-10-18T00:03:02.701Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/08/22/finally/</loc>
-    
-    <lastmod>2019-10-10T02:21:58.994Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/10/05/environmentvariables/</loc>
-    
-    <lastmod>2019-10-05T22:01:42.543Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/08/15/recordingterminalcommands/</loc>
-    
-    <lastmod>2019-10-05T21:58:02.336Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/10/02/workingwithmdt/</loc>
-    
-    <lastmod>2019-10-02T22:07:43.635Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/08/14/pythonatnight/</loc>
-    
-    <lastmod>2019-10-02T21:37:20.894Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/10/02/somanywaystosave/</loc>
-    
-    <lastmod>2019-10-02T16:31:38.769Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/08/10/entanglement/</loc>
-    
-    <lastmod>2019-10-02T16:22:43.077Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/09/30/completelyoverwhelmed/</loc>
-    
-    <lastmod>2019-09-30T15:43:41.437Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/08/09/layoutchange/</loc>
-    
-    <lastmod>2019-09-30T15:42:47.206Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/09/27/toomuchfun/</loc>
-    
-    <lastmod>2019-09-27T18:44:34.656Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/08/04/usingncurses/</loc>
-    
-    <lastmod>2019-09-27T17:45:29.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/09/24/variables/</loc>
-    
-    <lastmod>2019-09-24T22:49:27.680Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/07/31/endofmonth/</loc>
-    
-    <lastmod>2019-09-24T22:48:22.793Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/07/26/imagesearchneverends/</loc>
-    
-    <lastmod>2019-09-23T16:13:25.458Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/07/25/learningtheusefulnessoffunctions/</loc>
-    
-    <lastmod>2019-09-17T21:32:57.766Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/07/22/consolemessages/</loc>
-    
-    <lastmod>2019-09-05T03:07:03.058Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/07/20/differentfileextensions/</loc>
-    
-    <lastmod>2019-09-02T04:39:20.880Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/07/18/thisweekpython/</loc>
-    
-    <lastmod>2019-09-02T04:23:51.470Z</lastmod>
+    <lastmod>2019-11-09T19:01:41.654Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://espinz.com/2019/07/11/websiteoutrage/</loc>
     
-    <lastmod>2019-08-30T05:11:30.865Z</lastmod>
+    <lastmod>2019-11-09T19:01:41.653Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://espinz.com/2019/07/11/sitecleanup/</loc>
+    <loc>https://espinz.com/2019/08/29/wonderingaboutimages/</loc>
     
-    <lastmod>2019-08-23T07:25:18.331Z</lastmod>
+    <lastmod>2019-11-09T19:01:41.653Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/08/04/usingncurses/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.652Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/09/27/toomuchfun/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.651Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/07/18/thisweekpython/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.650Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/10/29/threeerrors/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.650Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/09/01/somanylibraries/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.649Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/10/02/somanywaystosave/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.649Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/06/06/smallericons/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.648Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/10/17/somanyflashcards/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.648Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/09/23/returningthecurrentshell/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.647Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/09/17/slowmonth/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.647Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/08/15/recordingterminalcommands/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.646Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/08/14/pythonatnight/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.645Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/11/03/recipes/workingwithssh/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.645Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/11/01/newmonthpost/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.644Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/07/25/learningtheusefulnessoffunctions/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.643Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/08/09/layoutchange/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.642Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/07/26/imagesearchneverends/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.641Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/08/23/jupyterhelloworld/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.641Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/05/23/helloworlds/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.640Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/09/01/gitrecovery/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.639Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/10/29/explosionoffiles/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.638Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/08/22/finally/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.638Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/08/10/entanglement/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.637Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/10/05/environmentvariables/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.637Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/07/31/endofmonth/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.636Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/10/26/easyinstallubuntu1910/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.635Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/10/09/editorslikevi,vimandnano/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.635Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/07/20/differentfileextensions/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.634Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/05/18/daycounter/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.634Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/07/22/consolemessages/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.633Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/07/11/Sitecleanup/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.632Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/2019/09/30/completelyoverwhelmed/</loc>
+    
+    <lastmod>2019-11-09T19:01:41.632Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://espinz.com/about/index.html</loc>
+    
+    <lastmod>2019-11-09T19:01:41.630Z</lastmod>
     
   </url>
   
@@ -345,13 +366,6 @@
   </url>
   
   <url>
-    <loc>https://espinz.com/2019/05/18/daycounter/</loc>
-    
-    <lastmod>2019-07-27T09:00:24.025Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://espinz.com/2019/06/20/anewframework/</loc>
     
     <lastmod>2019-07-27T04:47:57.906Z</lastmod>
@@ -366,14 +380,14 @@
   </url>
   
   <url>
-    <loc>https://espinz.com/2019/04/16/debianpreseed/</loc>
+    <loc>https://espinz.com/2019/04/27/delete1m/</loc>
     
     <lastmod>2019-07-27T04:47:57.905Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://espinz.com/2019/04/27/delete1m/</loc>
+    <loc>https://espinz.com/2019/04/16/debianpreseed/</loc>
     
     <lastmod>2019-07-27T04:47:57.905Z</lastmod>
     
@@ -415,14 +429,14 @@
   </url>
   
   <url>
-    <loc>https://espinz.com/2019/02/13/multicomment/</loc>
+    <loc>https://espinz.com/2019/05/01/newmonth/</loc>
     
     <lastmod>2019-07-27T04:47:57.902Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://espinz.com/2019/05/01/newmonth/</loc>
+    <loc>https://espinz.com/2019/02/13/multicomment/</loc>
     
     <lastmod>2019-07-27T04:47:57.902Z</lastmod>
     
@@ -474,13 +488,6 @@
     <loc>https://espinz.com/2019/06/12/internetdown/</loc>
     
     <lastmod>2019-07-27T04:47:57.649Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://espinz.com/2019/05/23/helloworlds/</loc>
-    
-    <lastmod>2019-07-27T04:47:57.645Z</lastmod>
     
   </url>
   

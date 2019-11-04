@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://espinz.com/"/>
-  <updated>2019-11-03T20:22:38.690Z</updated>
+  <updated>2019-11-09T19:05:31.481Z</updated>
   <id>https://espinz.com/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>A basic python class</title>
+    <link href="https://espinz.com/2019/11/09/abasicpythonclass/"/>
+    <id>https://espinz.com/2019/11/09/abasicpythonclass/</id>
+    <published>2019-11-09T19:00:35.000Z</published>
+    <updated>2019-11-09T19:05:31.481Z</updated>
+    
+    <content type="html"><![CDATA[<p>A small refresher.</p><script src="//gist.github.com/73851d113dc4fb75e5ee808b48f5cc06.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      A small refresher.
+    
+    </summary>
+    
+      <category term="computer" scheme="https://espinz.com/categories/computer/"/>
+    
+      <category term="languages" scheme="https://espinz.com/categories/computer/languages/"/>
+    
+    
+      <category term="python" scheme="https://espinz.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Working with ssh</title>
     <link href="https://espinz.com/2019/11/03/recipes/workingwithssh/"/>
     <id>https://espinz.com/2019/11/03/recipes/workingwithssh/</id>
     <published>2019-11-03T20:00:01.000Z</published>
-    <updated>2019-11-03T20:22:38.690Z</updated>
+    <updated>2019-11-09T19:01:41.645Z</updated>
     
     <content type="html"><![CDATA[<p>Some ssh recipes.</p><a id="more"></a><script src="//gist.github.com/d9c1e784d6391f49bcb34f9fa0386714.js"></script>]]></content>
     
@@ -47,7 +71,7 @@
     <link href="https://espinz.com/2019/11/02/workingwithvim/"/>
     <id>https://espinz.com/2019/11/02/workingwithvim/</id>
     <published>2019-11-02T11:00:14.000Z</published>
-    <updated>2019-11-03T20:16:36.319Z</updated>
+    <updated>2019-11-09T19:01:41.655Z</updated>
     
     <content type="html"><![CDATA[<p>Some vim recipes.</p><a id="more"></a><script src="//gist.github.com/e46caf29b0d5c24eae5208cdbd3093ec.js"></script>]]></content>
     
@@ -71,7 +95,7 @@
     <link href="https://espinz.com/2019/11/01/newmonthpost/"/>
     <id>https://espinz.com/2019/11/01/newmonthpost/</id>
     <published>2019-11-02T05:00:59.000Z</published>
-    <updated>2019-11-02T10:44:06.551Z</updated>
+    <updated>2019-11-09T19:01:41.644Z</updated>
     
     <content type="html"><![CDATA[<p>Just finished up on aliases and environment variables. Moving on to shell configuration and command redirection. I might order the compTIA certmaster learn for Linux+. I feel like my studying is going fine but after reviewing their program layout, I might be able to speed up the process if I use their program.</p>]]></content>
     
@@ -95,7 +119,7 @@
     <link href="https://espinz.com/2019/10/29/threeerrors/"/>
     <id>https://espinz.com/2019/10/29/threeerrors/</id>
     <published>2019-10-30T05:00:18.000Z</published>
-    <updated>2019-10-30T07:11:20.300Z</updated>
+    <updated>2019-11-09T19:01:41.650Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>Spring cleaning, Summer air out, Fall sweeping?</p></blockquote><p>This site has three errors: dead URL links which read 404. I find it very strange because the on the development server everything is up and running. I suppose it’s a perfect time to say “it works on my machine!”. Maybe a force update will help it recover because I am at a complete lost on this one. </p><h1 id="Checklist"><a href="#Checklist" class="headerlink" title="Checklist"></a>Checklist</h1><ul><li>The html is present</li><li>The hyperlink is correct</li><li>It works on the development server</li><li>Force update?</li></ul><h1 id="Update"><a href="#Update" class="headerlink" title="Update"></a>Update</h1><p>Force update didn’t work. I figured it would have no effect since all I was doing is uploading the same error. Since everything is working on the dev server, I had to look for clues. I came up with Capitalization. The post that were causing errors had capitals in their URLs. I gave all of them lower case names. Ideally, I would like to rename all the URLs into something more simple; keeping the date and only changing the long winded path names.</p><p><strong>Why</strong> not now? Because I don’t want to mess with googles indexing. Maybe I should do it now and have google re-index the site map now than later. Also, changing some script code in the process. Sure why not. Can I do it all before the next day? After reviewing what needs to be done. I would rather not rush it. Hexo stores all the files in one directory. I can’t have multiple files with the same name. I will have to create I file checker before each new entry. I plan this out.</p><h1 id="Checklist-1"><a href="#Checklist-1" class="headerlink" title="Checklist"></a>Checklist</h1><ul><li>Leave current file names</li><li>Create a file checker; each new entry; one word paths?</li></ul>]]></content>
     
@@ -121,7 +145,7 @@ This site has three errors: dead URL links which read 404. I find it very strang
     <link href="https://espinz.com/2019/10/29/explosionoffiles/"/>
     <id>https://espinz.com/2019/10/29/explosionoffiles/</id>
     <published>2019-10-29T07:00:01.000Z</published>
-    <updated>2019-10-30T05:36:46.761Z</updated>
+    <updated>2019-11-09T19:01:41.638Z</updated>
     
     <content type="html"><![CDATA[<p>I had files that were exploded across the filesystem. My goal was to find them all.</p><script src="//gist.github.com/8d0bb9197d45dfecfb171e6c5de673fb.js"></script>]]></content>
     
@@ -149,7 +173,7 @@ This site has three errors: dead URL links which read 404. I find it very strang
     <link href="https://espinz.com/2019/10/26/easyinstallubuntu1910/"/>
     <id>https://espinz.com/2019/10/26/easyinstallubuntu1910/</id>
     <published>2019-10-26T14:00:53.000Z</published>
-    <updated>2019-10-27T02:10:59.052Z</updated>
+    <updated>2019-11-09T19:01:41.635Z</updated>
     
     <content type="html"><![CDATA[<p>Just installed  Ubuntu 19.10 via VMware easy install. The reason behind the installation is for practice labs. Ubuntu 19.10 might be a little too new for practice labs but we will see. Speaking of seeing, watch me set and unset an environment variable on the newly installed OS! </p><p><strong>BONUS</strong>: the output of <code>set</code> and <code>export</code> are sent through named pipes. </p><iframe width="100%" height="315" src="https://www.youtube.com/embed/71hjBXGxH7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
     
@@ -177,7 +201,7 @@ BONUS: the output of
     <link href="https://espinz.com/2019/10/17/somanyflashcards/"/>
     <id>https://espinz.com/2019/10/17/somanyflashcards/</id>
     <published>2019-10-18T00:00:32.000Z</published>
-    <updated>2019-10-18T00:07:18.010Z</updated>
+    <updated>2019-11-09T19:01:41.648Z</updated>
     
     <content type="html"><![CDATA[<p>The flash cards are piling up!</p>]]></content>
     
@@ -203,7 +227,7 @@ BONUS: the output of
     <link href="https://espinz.com/2019/10/09/editorslikevi,vimandnano/"/>
     <id>https://espinz.com/2019/10/09/editorslikevi,vimandnano/</id>
     <published>2019-10-10T02:00:24.000Z</published>
-    <updated>2019-10-18T00:03:02.701Z</updated>
+    <updated>2019-11-09T19:01:41.635Z</updated>
     
     <content type="html"><![CDATA[<p>This week is all about editors: I am studying nano and vim. I do not have much to report on besides that.</p><a id="more"></a><p>I already know most of the basics in regards to vim. Nano — I know nothing. Most of the commands are at the bottom but in order to prepare myself for compTIA’s Linux+ I really should know them both like the back of my hand; I really don’t know what the back of my hand looks like but I hope that makes sense. </p><p>Actually, I write all my blog post in vim. Ever since my first post — all in vim. All my studying is done in GNU Emacs. I am thankful they don’t test for GNU Emacs because the learning curve on that one, at least for me, is very steep; I constantly have a cheat sheet near by every time I open it. Which is always because it is a program that is always open on my system. </p>]]></content>
     
@@ -231,7 +255,7 @@ I already know most of the basics in regards to vim. Nano — I know nothing. Mo
     <link href="https://espinz.com/2019/10/05/environmentvariables/"/>
     <id>https://espinz.com/2019/10/05/environmentvariables/</id>
     <published>2019-10-05T20:00:32.000Z</published>
-    <updated>2019-10-05T22:01:42.543Z</updated>
+    <updated>2019-11-09T19:01:41.637Z</updated>
     
     <content type="html"><![CDATA[<p>I am making good progress! Linux+ here I come! Lets hope the trough of disillusionment doesn’t happen.</p><a id="more"></a><h1 id="There-are-four-types-of-variables"><a href="#There-are-four-types-of-variables" class="headerlink" title="There are four types of variables."></a>There are four types of variables.</h1><ol><li>Environment - Has inheritance and generated by system settings.<br><code>export FRUIT=&quot;orange&quot; # Environment</code></li><li>Shell - Has no inheritance and generated by shell startup scripts.<br><code>FRUIT=&quot;orange&quot; # Shell</code></li><li>User - Defined on the command prompt and defined in user profiles.<br><code>fruit=&quot;orange&quot; # User/Local to the shell prompt</code></li><li>Local - Defined in script functions.<br><code>fruit=&quot;orange&quot; # Local</code></li></ol><h1 id="The-commands-in-the-image"><a href="#The-commands-in-the-image" class="headerlink" title="The commands in the image"></a>The commands in the image</h1><p>Searched for the environment variable called FRUIT; not found.<br>FRUIT is defined and exported.<br>Searched again and found.<br>Spawned a child shell.<br>Searched again and found.<br><img src="/images/small-tty.gif" alt="environment variables"></p>]]></content>
     
@@ -259,10 +283,10 @@ There are four types of variables.
   
   <entry>
     <title>Booting with MDT</title>
-    <link href="https://espinz.com/2019/10/02/workingwithmdt/"/>
-    <id>https://espinz.com/2019/10/02/workingwithmdt/</id>
+    <link href="https://espinz.com/2019/10/02/workingwithmDT/"/>
+    <id>https://espinz.com/2019/10/02/workingwithmDT/</id>
     <published>2019-10-02T21:00:24.000Z</published>
-    <updated>2019-10-02T22:07:43.635Z</updated>
+    <updated>2019-11-09T19:01:41.654Z</updated>
     
     <content type="html"><![CDATA[<p>I got a chance to deploy my first pxe-boot installation. I installed Windows 10 Enterprise on a Hyper-V virtual machine. </p><a id="more"></a><p>I would try it on a bare bone but the current set up is complicated: wifi, shared internet over thunderbolt, cross over cable. I guess what I am trying to say is that it is not connected to a switch? Wait! I just disconnect the Ethernet and connect the test unit. Maybe later.</p><p>I will document my notes on a new menu link above. I am thinking of calling it Windows and you will find it at the top soon. </p><p>Yes, I would like consider myself a GNU/Linux guy but it seems like I’m “forced” to toggle all three: Unix/Unix-like(macOS, FreeBSD), GNU/Linux, Windows.</p><p><img src="/images/MDT.png" alt="over dhcp"></p>]]></content>
     
@@ -290,7 +314,7 @@ I would try it on a bare bone but the current set up is complicated: wifi, share
     <link href="https://espinz.com/2019/10/02/somanywaystosave/"/>
     <id>https://espinz.com/2019/10/02/somanywaystosave/</id>
     <published>2019-10-02T16:00:04.000Z</published>
-    <updated>2019-10-02T16:31:38.769Z</updated>
+    <updated>2019-11-09T19:01:41.649Z</updated>
     
     <content type="html"><![CDATA[<p>I knew about wq, x and only rediscovered ZZ when going over the text editor chapters. #Linux+, #vi, #vim?</p><figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">:x</span><br><span class="line">:ZZ</span><br><span class="line">:wq</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -325,7 +349,7 @@ I would try it on a bare bone but the current set up is complicated: wifi, share
     <link href="https://espinz.com/2019/09/30/completelyoverwhelmed/"/>
     <id>https://espinz.com/2019/09/30/completelyoverwhelmed/</id>
     <published>2019-09-30T15:00:16.000Z</published>
-    <updated>2019-09-30T15:43:41.437Z</updated>
+    <updated>2019-11-09T19:01:41.632Z</updated>
     
     <content type="html"><![CDATA[<p>Creating a todo list today. I need to get some projects off of my mind and focus on what projects I shouldn’t be starting or serve as a distraction. </p><a id="more"></a><p>It all started when I seen the raspberry pi today. It looks so lonely. So, I have decided to start some fall <del>cleaning</del> sweeping: removing unused equipment away from eye sight. I am not currently using the raspberry so it would be best to clear it away.</p><p>Speaking of clearing away, now that summer is officially done, 2019 is quickly coming to an end. We are entering the last quarter. So sorry raspberry. Same to you networking. Must finish off strong! Back to Linux+ for the rest of the year!</p><h1 id="The-Goal-for-2019"><a href="#The-Goal-for-2019" class="headerlink" title="The Goal for 2019"></a>The Goal for 2019</h1><ul><li>Complete CompTIA Linux+</li><li>Start CompTIA A+</li></ul><h1 id="The-Goal-for-2020"><a href="#The-Goal-for-2020" class="headerlink" title="The Goal for 2020"></a>The Goal for 2020</h1><ul><li>Start CCNA R/S</li></ul>]]></content>
     
@@ -351,7 +375,7 @@ It all started when I seen the raspberry pi today. It looks so lonely. So, I hav
     <link href="https://espinz.com/2019/09/27/toomuchfun/"/>
     <id>https://espinz.com/2019/09/27/toomuchfun/</id>
     <published>2019-09-27T17:00:13.000Z</published>
-    <updated>2019-09-27T18:44:34.656Z</updated>
+    <updated>2019-11-09T19:01:41.651Z</updated>
     
     <content type="html"><![CDATA[<p>I couldn’t resist. What can I say — I’m weak!: I setup a GNS3 network topology!</p><a id="more"></a><p><img src="/images/FirstLab.png" alt="First Lab"><br><img src="/images/consoleConnect.gif" alt="First Ping"><br>For some context, I will explain how this happened. I started reading about something called CCNA Routing and Switching (Cisco Certified Network Associate). I seen some videos of people using a virtual network simulator called GNS3. Call it fate, coincidence or a small world but I was working with Python and pyQT just last week; GNS3 is built with python and pyQT. I didn’t feel the need to write about what I was working on because it was, and still is, an experimental side project for this site. I am still using dialog for bash, and some python; and right now, it is still a spaghetti of a mess that I am scared to touch at the moment. So, I decided to relieve some stress and connect a router, switch and two computers. Simple enough, right?</p><h1 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h1><p>So far I’m trying to juggle bash, python, pyQT, Linux+, and now CCNA? If I were to rate which one is considered play and which is considered work I would say, from play to work, networking (because I love hardware — I think), GNU/Linux then Programming. I will be honest. I am lazy. I hate working hence why my programming is always — <code>infinity=∞; sleep $infinity</code>?</p><p>I claimed I would drop everything and only work/play (it is work/play because it is in the middle of my rating system) for the Linux+ exam but failed to balance it all this week. </p><p>To justify my networking play, I suppose it could be viewed as a little reward for working so hard; and if that is the case, I should probably get back to <del>studying</del> “working” so I can accrue more playing time.</p>]]></content>
     
@@ -379,7 +403,7 @@ For some context, I will explain how this happened. I started reading about some
     <link href="https://espinz.com/2019/09/24/variables/"/>
     <id>https://espinz.com/2019/09/24/variables/</id>
     <published>2019-09-24T21:00:45.000Z</published>
-    <updated>2019-09-24T22:49:27.680Z</updated>
+    <updated>2019-11-09T19:05:34.619Z</updated>
     
     <content type="html"><![CDATA[<p>Environment, shell, user and local variables. An important rule I learned today is how to name local variables; always use a lower case naming convention to avoid overwriting environment or shell variables.</p>]]></content>
     
@@ -403,7 +427,7 @@ For some context, I will explain how this happened. I started reading about some
     <link href="https://espinz.com/2019/09/23/returningthecurrentshell/"/>
     <id>https://espinz.com/2019/09/23/returningthecurrentshell/</id>
     <published>2019-09-23T15:00:28.000Z</published>
-    <updated>2019-11-03T20:22:42.596Z</updated>
+    <updated>2019-11-09T19:01:41.647Z</updated>
     
     <content type="html"><![CDATA[<p>I always used <code>echo $SHELL</code> to return the current shell. Going over some studying material I rediscovered echo $0. This positional parameter, <code>$0</code>, assigns the current shell into that shell variable.<br>Try it:</p><figure class="highlight sh hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-built_in">echo</span> <span class="hljs-variable">$0</span> <span class="hljs-comment">#Result bash</span></span><br></pre></td></tr></table></figure>]]></content>
     
@@ -433,7 +457,7 @@ echo $0 #Result bash
     <link href="https://espinz.com/2019/09/17/slowmonth/"/>
     <id>https://espinz.com/2019/09/17/slowmonth/</id>
     <published>2019-09-17T21:00:25.000Z</published>
-    <updated>2019-11-02T11:15:01.774Z</updated>
+    <updated>2019-11-09T19:01:41.647Z</updated>
     
     <content type="html"><![CDATA[<p>It has been a slow month. I haven’t done much python, or bash, or reading. So what have I been up to? Studying for the new compTIA Linux+ XK0-004. Everything has been dropped and put on the back burner for now. If I do post something it should be about something I learned in my studies.</p>]]></content>
     
@@ -457,7 +481,7 @@ echo $0 #Result bash
     <link href="https://espinz.com/2019/09/04/workingwithdockeronwindows/"/>
     <id>https://espinz.com/2019/09/04/workingwithdockeronwindows/</id>
     <published>2019-09-05T03:00:57.000Z</published>
-    <updated>2019-11-02T05:55:21.876Z</updated>
+    <updated>2019-11-09T19:01:41.654Z</updated>
     
     <content type="html"><![CDATA[<p>What can I say — I gave into temptation: dropped all my OpenCV reading to play with docker-machine.</p><p>image below</p><a id="more"></a><p><img src="/images/vmWorkers.png" alt="vmWorkers"></p>]]></content>
     
@@ -489,7 +513,7 @@ image below
     <link href="https://espinz.com/2019/09/01/gitrecovery/"/>
     <id>https://espinz.com/2019/09/01/gitrecovery/</id>
     <published>2019-09-02T04:00:59.000Z</published>
-    <updated>2019-11-02T05:56:40.358Z</updated>
+    <updated>2019-11-09T19:01:41.639Z</updated>
     
     <content type="html"><![CDATA[<p>A smaller reminder. If you rebase/squash, and reset hard, you will lose your important addition; use git reflog to recover. The commit “Important addition.” was at HEAD@{3}.</p><figure class="highlight sh hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git add &amp;&amp; git commit -am <span class="hljs-string">"Important addition."</span></span><br><span class="line">git rebase -i HEAD~3 <span class="hljs-comment"># did a squash</span></span><br><span class="line">git reset --hard HEAD~2</span><br><span class="line">git reflog</span><br><span class="line">git reset --hard HEAD@&#123;3&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -516,9 +540,9 @@ git r
       <category term="shell" scheme="https://espinz.com/categories/terminal/shell/"/>
     
     
-      <category term="git" scheme="https://espinz.com/tags/git/"/>
-    
       <category term="shell" scheme="https://espinz.com/tags/shell/"/>
+    
+      <category term="git" scheme="https://espinz.com/tags/git/"/>
     
   </entry>
   
@@ -527,7 +551,7 @@ git r
     <link href="https://espinz.com/2019/09/01/somanylibraries/"/>
     <id>https://espinz.com/2019/09/01/somanylibraries/</id>
     <published>2019-09-01T18:00:26.000Z</published>
-    <updated>2019-10-30T05:34:33.604Z</updated>
+    <updated>2019-11-09T19:01:41.649Z</updated>
     
     <content type="html"><![CDATA[<p>So many libraries, so little time. I suppose this is my new month post. I spent some time digging around some libraries. Which ones? <figure class="highlight python hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-keyword">import</span> re, io , os, argparse, requests, subprocess</span><br><span class="line"><span class="hljs-keyword">from</span> PIL <span class="hljs-keyword">import</span> Image, ImageDraw, ImageFilter, ImageFont</span><br><span class="line"><span class="hljs-keyword">from</span> shutil <span class="hljs-keyword">import</span> copyfile</span><br></pre></td></tr></table></figure></p>]]></content>
     
@@ -552,34 +576,6 @@ from shutil import copyfile
       <category term="python" scheme="https://espinz.com/tags/python/"/>
     
       <category term="libraries" scheme="https://espinz.com/tags/libraries/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Wondering about images</title>
-    <link href="https://espinz.com/2019/08/29/wonderingaboutimages/"/>
-    <id>https://espinz.com/2019/08/29/wonderingaboutimages/</id>
-    <published>2019-08-30T05:00:16.000Z</published>
-    <updated>2019-10-26T14:24:12.359Z</updated>
-    
-    <content type="html"><![CDATA[<p>I have been reading about OpenCV. I would like to learn more about it so I can build some sort of neural network. Ideally, I would like to record plants growing. Details later.</p>]]></content>
-    
-    <summary type="html">
-    
-      I have been reading about OpenCV. I would like to learn more about it so I can build some sort of neural network. Ideally, I would like to record plants growing. Details later.
-    
-    </summary>
-    
-      <category term="unique" scheme="https://espinz.com/categories/unique/"/>
-    
-      <category term="thought" scheme="https://espinz.com/categories/unique/thought/"/>
-    
-    
-      <category term="python" scheme="https://espinz.com/tags/python/"/>
-    
-      <category term="opencv" scheme="https://espinz.com/tags/opencv/"/>
-    
-      <category term="raspberry pi" scheme="https://espinz.com/tags/raspberry-pi/"/>
     
   </entry>
   

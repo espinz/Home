@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>A basic python class</title>
+      <link href="/2019/11/09/abasicpythonclass/"/>
+      <url>/2019/11/09/abasicpythonclass/</url>
+      
+        <content type="html"><![CDATA[<p>A small refresher.</p><script src="//gist.github.com/73851d113dc4fb75e5ee808b48f5cc06.js"></script>]]></content>
+      
+      
+      <categories>
+          
+          <category> computer </category>
+          
+          <category> languages </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Working with ssh</title>
       <link href="/2019/11/03/recipes/workingwithssh/"/>
       <url>/2019/11/03/recipes/workingwithssh/</url>
@@ -262,8 +289,8 @@
     
     <entry>
       <title>Booting with MDT</title>
-      <link href="/2019/10/02/workingwithmdt/"/>
-      <url>/2019/10/02/workingwithmdt/</url>
+      <link href="/2019/10/02/workingwithmDT/"/>
+      <url>/2019/10/02/workingwithmDT/</url>
       
         <content type="html"><![CDATA[<p>I got a chance to deploy my first pxe-boot installation. I installed Windows 10 Enterprise on a Hyper-V virtual machine. </p><a id="more"></a><p>I would try it on a bare bone but the current set up is complicated: wifi, shared internet over thunderbolt, cross over cable. I guess what I am trying to say is that it is not connected to a switch? Wait! I just disconnect the Ethernet and connect the test unit. Maybe later.</p><p>I will document my notes on a new menu link above. I am thinking of calling it Windows and you will find it at the top soon. </p><p>Yes, I would like consider myself a GNU/Linux guy but it seems like I’m “forced” to toggle all three: Unix/Unix-like(macOS, FreeBSD), GNU/Linux, Windows.</p><p><img src="/images/MDT.png" alt="over dhcp"></p>]]></content>
       
@@ -505,9 +532,9 @@
       
         <tags>
             
-            <tag> git </tag>
-            
             <tag> shell </tag>
+            
+            <tag> git </tag>
             
         </tags>
       
@@ -977,8 +1004,8 @@
     
     <entry>
       <title>Site cleanup</title>
-      <link href="/2019/07/11/sitecleanup/"/>
-      <url>/2019/07/11/sitecleanup/</url>
+      <link href="/2019/07/11/Sitecleanup/"/>
+      <url>/2019/07/11/Sitecleanup/</url>
       
         <content type="html"><![CDATA[<p>Cleaned up some tags, and categories. I wanted to move the personal category to the bottom but I honestly couldn’t decide on a word. Actually, I just came up with the word unique for the new category. It is not at the bottom but it works for me.</p>]]></content>
       
@@ -1396,11 +1423,11 @@
             
             <tag> bash </tag>
             
+            <tag> shell </tag>
+            
             <tag> command </tag>
             
             <tag> git </tag>
-            
-            <tag> shell </tag>
             
         </tags>
       
@@ -1770,9 +1797,9 @@
       
         <tags>
             
-            <tag> command </tag>
-            
             <tag> shell </tag>
+            
+            <tag> command </tag>
             
         </tags>
       
