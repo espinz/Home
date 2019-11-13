@@ -650,9 +650,9 @@
       
         <tags>
             
-            <tag> scripting </tag>
-            
             <tag> python </tag>
+            
+            <tag> scripting </tag>
             
         </tags>
       
@@ -741,9 +741,9 @@
       
         <tags>
             
-            <tag> bash </tag>
-            
             <tag> python </tag>
+            
+            <tag> bash </tag>
             
             <tag> JavaScript </tag>
             
@@ -1004,8 +1004,8 @@
     
     <entry>
       <title>Site cleanup</title>
-      <link href="/2019/07/11/Sitecleanup/"/>
-      <url>/2019/07/11/Sitecleanup/</url>
+      <link href="/2019/07/11/sitecleanup/"/>
+      <url>/2019/07/11/sitecleanup/</url>
       
         <content type="html"><![CDATA[<p>Cleaned up some tags, and categories. I wanted to move the personal category to the bottom but I honestly couldn’t decide on a word. Actually, I just came up with the word unique for the new category. It is not at the bottom but it works for me.</p>]]></content>
       
@@ -1582,13 +1582,13 @@
       
         <tags>
             
+            <tag> python </tag>
+            
             <tag> cpp </tag>
             
             <tag> c </tag>
             
             <tag> bash </tag>
-            
-            <tag> python </tag>
             
             <tag> swift </tag>
             

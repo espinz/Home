@@ -2,30 +2,31 @@
 <html lang="en">
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-<title>Category: updates - My digital journal</title>
+<title>Booting with MDT - My digital journal</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
-    <meta name="description" content="You will find some of my notes on computer networking, programming and scripting.">
-<meta name="keywords" content="blog">
-<meta property="og:type" content="website">
-<meta property="og:title" content="My digital journal">
-<meta property="og:url" content="https://espinz.com/categories/website/updates/index.html">
+    <meta name="description" content="I got a chance to deploy my first pxe-boot installation. I installed Windows 10 Enterprise on a Hyper-V virtual machine.   I would try it on a bare bone but the current set up is complicated: wifi, sh">
+<meta name="keywords" content="MDT,Microsoft">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Booting with MDT">
+<meta property="og:url" content="https://espinz.com/2019/10/02/workingwithmDT/index.html">
 <meta property="og:site_name" content="My digital journal">
-<meta property="og:description" content="You will find some of my notes on computer networking, programming and scripting.">
+<meta property="og:description" content="I got a chance to deploy my first pxe-boot installation. I installed Windows 10 Enterprise on a Hyper-V virtual machine.   I would try it on a bare bone but the current set up is complicated: wifi, sh">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https://espinz.com/images/og_image.png">
+<meta property="og:image" content="https://espinz.com/images/boot.jpg">
+<meta property="og:updated_time" content="2019-11-09T19:01:41.654Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="My digital journal">
-<meta name="twitter:description" content="You will find some of my notes on computer networking, programming and scripting.">
-<meta name="twitter:image" content="https://espinz.com/images/og_image.png">
+<meta name="twitter:title" content="Booting with MDT">
+<meta name="twitter:description" content="I got a chance to deploy my first pxe-boot installation. I installed Windows 10 Enterprise on a Hyper-V virtual machine.   I would try it on a bare bone but the current set up is complicated: wifi, sh">
+<meta name="twitter:image" content="https://espinz.com/images/boot.jpg">
 
 
 
 
 
-<link rel="alternative" href="/atom.xml" title="My digital journal" type="application/atom+xml">
+<link rel="alternative" href="/atom.xml" title="Booting with MDT" type="application/atom+xml">
 
 
 
@@ -99,7 +100,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="/images/apple-touch-icon.png" alt="My digital journal" height="28">
+                <img src="/images/apple-touch-icon.png" alt="Booting with MDT" height="28">
             
             </a>
         </div>
@@ -124,6 +125,10 @@
             <div class="navbar-end">
                 
                 
+                <a class="navbar-item is-hidden-tablet catalogue" title="Catalogue" href="javascript:;">
+                    <i class="fas fa-list-ul"></i>
+                </a>
+                
                 
                 <a class="navbar-item search" title="Search" href="javascript:;">
                     <i class="fas fa-search"></i>
@@ -138,44 +143,28 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main"> <div class="card">
-    <div class="card-content">
-        <nav class="breadcrumb" aria-label="breadcrumbs">
-        <ul>
-            <li><a href="/categories">Categories</a></li>
-            
-            <li><a href="/categories/website/">website</a></li>
-            
-            <li class="is-active"><a href="#" aria-current="page">updates</a></li>
-        </ul>
-        </nav>
-    </div>
-</div>
-
-
-    
-    <div class="card">
     
     <div class="card-image">
-        <a href="/2019/10/29/threeerrors/" class="image is-7by1">
-            <img class="thumbnail" src="/images/2019-10-29.jpg" alt="Three errors">
-        </a>
+        <span class="image is-7by1">
+            <img class="thumbnail" src="/images/boot.jpg" alt="Booting with MDT">
+        </span>
     </div>
     
     <div class="card-content article ">
         
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-10-30T05:00:18.000Z">2019-10-29</time>
+                <time class="level-item has-text-grey" datetime="2019-10-02T21:00:24.000Z">2019-10-02</time>
                 
                 <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/website/">website</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/website/updates/">updates</a>
+                <a class="has-link-grey -link" href="/categories/os/">os</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/os/windows/">windows</a>
                 </div>
                 
                 
                 <span class="level-item has-text-grey">
                     
                     
-                    2 minutes read (About 279 words)
+                    a minute read (About 136 words)
                 </span>
                 
                 
@@ -184,23 +173,28 @@
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                <a class="has-link-black-ter" href="/2019/10/29/threeerrors/">Three errors</a>
+                Booting with MDT
             
         </h1>
         <div class="content">
-            Spring cleaning, Summer air out, Fall sweeping?
+            <p>I got a chance to deploy my first pxe-boot installation. I installed Windows 10 Enterprise on a Hyper-V virtual machine. </p>
+<a id="more"></a>
+<p>I would try it on a bare bone but the current set up is complicated: wifi, shared internet over thunderbolt, cross over cable. I guess what I am trying to say is that it is not connected to a switch? Wait! I just disconnect the Ethernet and connect the test unit. Maybe later.</p>
+<p>I will document my notes on a new menu link above. I am thinking of calling it Windows and you will find it at the top soon. </p>
+<p>Yes, I would like consider myself a GNU/Linux guy but it seems like I’m “forced” to toggle all three: Unix/Unix-like(macOS, FreeBSD), GNU/Linux, Windows.</p>
+<p><img src="/images/MDT.png" alt="over dhcp"></p>
 
-This site has three errors: dead URL links which read 404. I find it very strange because the on the development server everything is up and running. I suppose it’s a perfect time to say “it works on my machine!”. Maybe a force update will help it rec
         </div>
         
-        
-        <div class="level is-mobile">
+        <div class="level is-size-7 is-uppercase">
             <div class="level-start">
                 <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/10/29/threeerrors/#more">Read More</a>
+                    <span class="is-size-6 has-text-grey has-mr-7">#</span>
+                    <a class="has-link-grey -link" href="/tags/MDT/">MDT</a>, <a class="has-link-grey -link" href="/tags/Microsoft/">Microsoft</a>
                 </div>
             </div>
         </div>
+        
         
         
     </div>
@@ -210,712 +204,29 @@ This site has three errors: dead URL links which read 404. I find it very strang
 
 
 
-
-
-    
-    <div class="card">
-    
-    <div class="card-content article ">
+<div class="card card-transparent">
+    <div class="level post-navigation is-flex-wrap is-mobile">
         
-        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
-            <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-08-22T21:00:14.000Z">2019-08-22</time>
-                
-                <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/website/">website</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/website/updates/">updates</a>
-                </div>
-                
-                
-                <span class="level-item has-text-grey">
-                    
-                    
-                    a few seconds read (About 12 words)
-                </span>
-                
-                
-            </div>
-        </div>
-        
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
-            
-                <a class="has-link-black-ter" href="/2019/08/22/finally/">Finally</a>
-            
-        </h1>
-        <div class="content">
-            Well, not quite. I have a few more rough edges to polish.
+        <div class="level-start">
+            <a class="level level-item has-link-grey  article-nav-prev" href="/2019/10/05/environmentvariables/">
+                <i class="level-item fas fa-chevron-left"></i>
+                <span class="level-item">Environment Variables</span>
+            </a>
         </div>
         
         
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/08/22/finally/#more">Read More</a>
-                </div>
-            </div>
+        <div class="level-end">
+            <a class="level level-item has-link-grey  article-nav-next" href="/2019/10/02/somanywaystosave/">
+                <span class="level-item">So many ways to save</span>
+                <i class="level-item fas fa-chevron-right"></i>
+            </a>
         </div>
-        
         
     </div>
 </div>
 
 
-
-
-
-
-
-    
-    <div class="card">
-    
-    <div class="card-content article ">
-        
-        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
-            <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-08-10T18:00:00.000Z">2019-08-10</time>
-                
-                <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/website/">website</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/website/updates/">updates</a>
-                </div>
-                
-                
-                <span class="level-item has-text-grey">
-                    
-                    
-                    a minute read (About 117 words)
-                </span>
-                
-                
-            </div>
-        </div>
-        
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
-            
-                <a class="has-link-black-ter" href="/2019/08/10/entanglement/">Entanglement of languages</a>
-            
-        </h1>
-        <div class="content">
-            When I stop to think, I wonder if I have lost my — mind. The goal was to move from Jekyll, a Ruby based framework, to Hexo, a JavaScript based framework; the reasoning behind this was to familiarize myself with JavaScript. I completed the transition; not so much the familiarization. The main questio
-        </div>
-        
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/08/10/entanglement/#more">Read More</a>
-                </div>
-            </div>
-        </div>
-        
-        
-    </div>
 </div>
-
-
-
-
-
-
-
-    
-    <div class="card">
-    
-    <div class="card-content article ">
-        
-        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
-            <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-07-27T03:00:00.000Z">2019-07-26</time>
-                
-                <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/website/">website</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/website/updates/">updates</a>
-                </div>
-                
-                
-                <span class="level-item has-text-grey">
-                    
-                    
-                    a few seconds read (About 97 words)
-                </span>
-                
-                
-            </div>
-        </div>
-        
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
-            
-                <a class="has-link-black-ter" href="/2019/07/26/imagesearchneverends/">Image search never ends</a>
-            
-        </h1>
-        <div class="content">
-            I am still working on the image search script. What am I doing exactly? I am writing a script to auto insert images. I was scanning my posts for nouns and basing the images off of that; it did not work out so well. The problem was that the nouns were too random. So I opted for a keyword prompt to be
-        </div>
-        
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/07/26/imagesearchneverends/#more">Read More</a>
-                </div>
-            </div>
-        </div>
-        
-        
-    </div>
-</div>
-
-
-
-
-
-
-
-    
-    <div class="card">
-    
-    <div class="card-content article ">
-        
-        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
-            <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-07-20T21:00:00.000Z">2019-07-20</time>
-                
-                <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/website/">website</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/website/updates/">updates</a>
-                </div>
-                
-                
-                <span class="level-item has-text-grey">
-                    
-                    
-                    a few seconds read (About 73 words)
-                </span>
-                
-                
-            </div>
-        </div>
-        
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
-            
-                <a class="has-link-black-ter" href="/2019/07/20/differentfileextensions/">Different file extensions</a>
-            
-        </h1>
-        <div class="content">
-            A clean up script was hanging for “no apparent reason”. After reviewing the script it happen to be a difference in file extensions. The script was looking for dot md extensions while the current file being read was a dot markdown. I suppose some error checking would of helped.
-
-I renamed all the dot
-        </div>
-        
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/07/20/differentfileextensions/#more">Read More</a>
-                </div>
-            </div>
-        </div>
-        
-        
-    </div>
-</div>
-
-
-
-
-
-
-
-    
-    <div class="card">
-    
-    <div class="card-content article ">
-        
-        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
-            <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-07-12T04:00:00.000Z">2019-07-11</time>
-                
-                <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/website/">website</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/website/updates/">updates</a>
-                </div>
-                
-                
-                <span class="level-item has-text-grey">
-                    
-                    
-                    a minute read (About 128 words)
-                </span>
-                
-                
-            </div>
-        </div>
-        
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
-            
-                <a class="has-link-black-ter" href="/2019/07/11/websiteoutrage/">Website outrage</a>
-            
-        </h1>
-        <div class="content">
-            Major site outrage. A huge special thanks to git! I was able to recover. Also, today I started using long commit messages on the development server. I was adding comments into the scripts but figured it was starting to look ugly; that and I was adding dates manually. Git can take care of all of that
-        </div>
-        
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/07/11/websiteoutrage/#more">Read More</a>
-                </div>
-            </div>
-        </div>
-        
-        
-    </div>
-</div>
-
-
-
-
-
-
-
-    
-    <div class="card">
-    
-    <div class="card-content article ">
-        
-        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
-            <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-07-12T02:00:00.000Z">2019-07-11</time>
-                
-                <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/website/">website</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/website/updates/">updates</a>
-                </div>
-                
-                
-                <span class="level-item has-text-grey">
-                    
-                    
-                    a few seconds read (About 49 words)
-                </span>
-                
-                
-            </div>
-        </div>
-        
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
-            
-                <a class="has-link-black-ter" href="/2019/07/11/sitecleanup/">Site cleanup</a>
-            
-        </h1>
-        <div class="content">
-            Cleaned up some tags, and categories. I wanted to move the personal category to the bottom but I honestly couldn’t decide on a word. Actually, I just came up with the word unique for the new category. It is not at the bottom but it works for me.
-        </div>
-        
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/07/11/sitecleanup/#more">Read More</a>
-                </div>
-            </div>
-        </div>
-        
-        
-    </div>
-</div>
-
-
-
-
-
-
-
-    
-    <div class="card">
-    
-    <div class="card-content article ">
-        
-        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
-            <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-07-02T05:00:00.000Z">2019-07-01</time>
-                
-                <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/website/">website</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/website/updates/">updates</a>
-                </div>
-                
-                
-                <span class="level-item has-text-grey">
-                    
-                    
-                    a few seconds read (About 38 words)
-                </span>
-                
-                
-            </div>
-        </div>
-        
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
-            
-                <a class="has-link-black-ter" href="/2019/07/01/localfunction/">Local function hiccups</a>
-            
-        </h1>
-        <div class="content">
-            Started the month with a bang hiccup. Images were not loading again. This was due to local variables trying to access global ones. What this really means is that I messed up some bash code. Ugh. Fixed now.
-        </div>
-        
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/07/01/localfunction/#more">Read More</a>
-                </div>
-            </div>
-        </div>
-        
-        
-    </div>
-</div>
-
-
-
-
-
-
-
-    
-    <div class="card">
-    
-    <div class="card-content article ">
-        
-        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
-            <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-06-26T07:00:00.000Z">2019-06-26</time>
-                
-                <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/website/">website</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/website/updates/">updates</a>
-                </div>
-                
-                
-                <span class="level-item has-text-grey">
-                    
-                    
-                    a few seconds read (About 79 words)
-                </span>
-                
-                
-            </div>
-        </div>
-        
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
-            
-                <a class="has-link-black-ter" href="/2019/06/26/imagetest/">Image test</a>
-            
-        </h1>
-        <div class="content">
-            Does it work? Yes it does! When this site hits the storage limit, I will rethink the image hosting. Right now, the images are hitting firebase, unsplash and github.
-
-Why so serious many? I don’t know? I was testing my options. On second thought, I might not need save so many images. I will remove, o
-        </div>
-        
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/06/26/imagetest/#more">Read More</a>
-                </div>
-            </div>
-        </div>
-        
-        
-    </div>
-</div>
-
-
-
-
-
-
-
-    
-    <div class="card">
-    
-    <div class="card-content article ">
-        
-        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
-            <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-06-25T07:00:00.000Z">2019-06-25</time>
-                
-                <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/website/">website</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/website/updates/">updates</a>
-                </div>
-                
-                
-                <span class="level-item has-text-grey">
-                    
-                    
-                    a few seconds read (About 55 words)
-                </span>
-                
-                
-            </div>
-        </div>
-        
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
-            
-                <a class="has-link-black-ter" href="/2019/06/25/brokenimages/">Broken images</a>
-            
-        </h1>
-        <div class="content">
-            Seems like the images are hitting too fast which triggers a rate limit.
-
-What to do? 
-
-I mean where should I add these images. I will have to adjust this theme. I like static sites but I don’t like how it recalls every resource.
-
-Another todo; they are quickly adding up.
-
-Photo by Math
-        </div>
-        
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/06/25/brokenimages/#more">Read More</a>
-                </div>
-            </div>
-        </div>
-        
-        
-    </div>
-</div>
-
-
-
-
-
-
-
-    
-    <div class="card">
-    
-    <div class="card-content article ">
-        
-        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
-            <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-06-23T07:00:00.000Z">2019-06-23</time>
-                
-                <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/website/">website</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/website/updates/">updates</a>
-                </div>
-                
-                
-                <span class="level-item has-text-grey">
-                    
-                    
-                    a few seconds read (About 53 words)
-                </span>
-                
-                
-            </div>
-        </div>
-        
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
-            
-                <a class="has-link-black-ter" href="/2019/06/23/settleforicarus/">I will settle for Icarus</a>
-            
-        </h1>
-        <div class="content">
-            I like the layout. I would like to change some columns around but I will have
-to add that to my todo list. Also, for the images, I am considering unsplash.
-The goal is to make my own account and use my own images via their api again
-todo.
-
-Photo by Fabian Grohs
-        </div>
-        
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/06/23/settleforicarus/#more">Read More</a>
-                </div>
-            </div>
-        </div>
-        
-        
-    </div>
-</div>
-
-
-
-
-
-
-
-    
-    <div class="card">
-    
-    <div class="card-content article ">
-        
-        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
-            <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-06-21T07:00:00.000Z">2019-06-21</time>
-                
-                <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/website/">website</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/website/updates/">updates</a>
-                </div>
-                
-                
-                <span class="level-item has-text-grey">
-                    
-                    
-                    a few seconds read (About 65 words)
-                </span>
-                
-                
-            </div>
-        </div>
-        
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
-            
-                <a class="has-link-black-ter" href="/2019/06/21/leftjekyll/">Why I left Jekyll</a>
-            
-        </h1>
-        <div class="content">
-            I was thinking, aka working, on my tags. Then I found Hexo. I stumbled on it via https://www.staticgen.com/. I even found a bash blog on there. I would like to practice some more javascript so I decided to leave ruby and try Hexo. This is what I wanted and it has already been done. So I switched.
-
-P
-        </div>
-        
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/06/21/leftjekyll/#more">Read More</a>
-                </div>
-            </div>
-        </div>
-        
-        
-    </div>
-</div>
-
-
-
-
-
-
-
-    
-    <div class="card">
-    
-    <div class="card-content article ">
-        
-        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
-            <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-06-21T06:12:31.000Z">2019-06-20</time>
-                
-                <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/website/">website</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/website/updates/">updates</a>
-                </div>
-                
-                
-                <span class="level-item has-text-grey">
-                    
-                    
-                    a few seconds read (About 92 words)
-                </span>
-                
-                
-            </div>
-        </div>
-        
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
-            
-                <a class="has-link-black-ter" href="/2019/06/20/anewframework/">A new framework, a new site</a>
-            
-        </h1>
-        <div class="content">
-            I been thinking about the layout of the default jekyll theme. I wanted to list all my tags and change the font sizes. I wanted some tags with alternating fonts sizes. I did not know why some tags have a larger fonts and why some have a smaller fonts until I ran across Hexo.
-
-It seems like the more t
-        </div>
-        
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/06/20/anewframework/#more">Read More</a>
-                </div>
-            </div>
-        </div>
-        
-        
-    </div>
-</div>
-
-
-
-
-
-
-
-    
-    <div class="card">
-    
-    <div class="card-content article ">
-        
-        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
-            <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-05-01T07:00:00.000Z">2019-05-01</time>
-                
-                <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/website/">website</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/website/updates/">updates</a>
-                </div>
-                
-                
-                <span class="level-item has-text-grey">
-                    
-                    
-                    a few seconds read (About 25 words)
-                </span>
-                
-                
-            </div>
-        </div>
-        
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
-            
-                <a class="has-link-black-ter" href="/2019/05/01/newmonth/">New month new post</a>
-            
-        </h1>
-        <div class="content">
-            Working late on a new post setup. February was my most active month. 
-
-Watch me beat that with this new setup! 
-
-Photo by Monica Sauro
-        </div>
-        
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/05/01/newmonth/#more">Read More</a>
-                </div>
-            </div>
-        </div>
-        
-        
-    </div>
-</div>
-
-
-
-
-
-
-
-    
-    
-  </div>
                 
 
 
@@ -1254,6 +565,17 @@ Photo by Monica Sauro
 </div>
     
         
+<div class="card widget" id="toc">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                Catalogue
+            </h3>
+            
+        </div>
+    </div>
+</div>
+
     
         
 <div class="card widget">
@@ -1511,7 +833,7 @@ Photo by Monica Sauro
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
-                    <img src="/images/apple-touch-icon.png" alt="My digital journal" height="28">
+                    <img src="/images/apple-touch-icon.png" alt="Booting with MDT" height="28">
                 
                 </a>
                 <p class="is-size-7">
