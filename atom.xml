@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://espinz.com/"/>
-  <updated>2019-12-09T00:41:57.926Z</updated>
+  <updated>2019-12-17T09:29:40.488Z</updated>
   <id>https://espinz.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Early gift to myself</title>
+    <link href="https://espinz.com/2019/12/17/earlygifttomyself.html"/>
+    <id>https://espinz.com/2019/12/17/earlygifttomyself.html</id>
+    <published>2019-12-17T09:00:39.000Z</published>
+    <updated>2019-12-17T09:29:40.488Z</updated>
+    
+    <content type="html"><![CDATA[<p>Installed Windows Server 2019! Oh, and I finally ended my struggle of being connected to that macOS thunderbolt to Ethernet, cross over madness. Now all I do is connect via WiFi to the RDP sessions. Also, I had a Windows Server 2016 issue about not having a license for Remote Desktop Services so I couldn’t connect via RDP hence the cross over madness (thanks to all available jack ports). </p><h1 id="What-I-learned"><a href="#What-I-learned" class="headerlink" title="What I learned"></a>What I learned</h1><ol><li>When in a domain, RDP will need CALs; drop the domain and RDP will work.</li></ol><p>That’s all for now. Back to studying.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Installed Windows Server 2019! Oh, and I finally ended my struggle of being connected to that macOS thunderbolt to Ethernet, cross over m
+      
+    
+    </summary>
+    
+      <category term="os" scheme="https://espinz.com/categories/os/"/>
+    
+      <category term="windows" scheme="https://espinz.com/categories/os/windows/"/>
+    
+    
+      <category term="server" scheme="https://espinz.com/tags/server/"/>
+    
+      <category term="windows" scheme="https://espinz.com/tags/windows/"/>
+    
+  </entry>
   
   <entry>
     <title>compTIA A+</title>
@@ -373,15 +402,13 @@ I would try it on a bare bone but the current set up is complicated: wifi, share
     <link href="https://espinz.com/2019/09/30/completelyoverwhelmed.html"/>
     <id>https://espinz.com/2019/09/30/completelyoverwhelmed.html</id>
     <published>2019-09-30T15:00:16.000Z</published>
-    <updated>2019-12-08T23:33:23.216Z</updated>
+    <updated>2019-12-17T09:29:43.865Z</updated>
     
     <content type="html"><![CDATA[<p>Creating a todo list today. I need to get some projects off of my mind and focus on what projects I shouldn’t be starting or serve as a distraction. </p><a id="more"></a><p>It all started when I seen the raspberry pi today. It looks so lonely. So, I have decided to start some fall <del>cleaning</del> sweeping: removing unused equipment away from eye sight. I am not currently using the raspberry so it would be best to clear it away.</p><p>Speaking of clearing away, now that summer is officially done, 2019 is quickly coming to an end. We are entering the last quarter. So sorry raspberry. Same to you networking. Must finish off strong! Back to Linux+ for the rest of the year!</p><h1 id="The-Goal-for-2019"><a href="#The-Goal-for-2019" class="headerlink" title="The Goal for 2019"></a>The Goal for 2019</h1><ul><li>Complete CompTIA Linux+</li><li>Start CompTIA A+</li></ul><h1 id="The-Goal-for-2020"><a href="#The-Goal-for-2020" class="headerlink" title="The Goal for 2020"></a>The Goal for 2020</h1><ul><li>Start CCNA R/S</li></ul>]]></content>
     
     <summary type="html">
     
-      Creating a todo list today. I need to get some projects off of my mind and focus on what projects I shouldn’t be starting or serve as a distraction. 
-
-It all started when I seen the raspberry pi today. It looks so lonely. So, I have decided to start some fall cleaning sweeping: removing unused equip
+      &lt;p&gt;Creating a todo list today. I need to get some projects off of my mind and focus on what projects I shouldn’t be starting or serve as a distraction. &lt;/p&gt;
     
     </summary>
     
@@ -529,44 +556,6 @@ image below
       <category term="docker-machine" scheme="https://espinz.com/tags/docker-machine/"/>
     
       <category term="windows" scheme="https://espinz.com/tags/windows/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Git recovery</title>
-    <link href="https://espinz.com/2019/09/01/gitrecovery.html"/>
-    <id>https://espinz.com/2019/09/01/gitrecovery.html</id>
-    <published>2019-09-02T04:00:59.000Z</published>
-    <updated>2019-11-09T19:01:41.639Z</updated>
-    
-    <content type="html"><![CDATA[<p>A smaller reminder. If you rebase/squash, and reset hard, you will lose your important addition; use git reflog to recover. The commit “Important addition.” was at HEAD@{3}.</p><figure class="highlight sh hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git add &amp;&amp; git commit -am <span class="hljs-string">"Important addition."</span></span><br><span class="line">git rebase -i HEAD~3 <span class="hljs-comment"># did a squash</span></span><br><span class="line">git reset --hard HEAD~2</span><br><span class="line">git reflog</span><br><span class="line">git reset --hard HEAD@&#123;3&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      A smaller reminder. If you rebase/squash, and reset hard, you will lose your important addition; use git reflog to recover. The commit “Important addition.” was at HEAD@{3}.
-
-1
-2
-3
-4
-5
-
-
-git add &amp;&amp; git commit -am &quot;Important addition.&quot;
-git rebase -i HEAD~3 # did a squash
-git reset --hard HEAD~2
-git r
-    
-    </summary>
-    
-      <category term="terminal" scheme="https://espinz.com/categories/terminal/"/>
-    
-      <category term="shell" scheme="https://espinz.com/categories/terminal/shell/"/>
-    
-    
-      <category term="shell" scheme="https://espinz.com/tags/shell/"/>
-    
-      <category term="git" scheme="https://espinz.com/tags/git/"/>
     
   </entry>
   

@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Early gift to myself</title>
+      <link href="/2019/12/17/earlygifttomyself.html"/>
+      <url>/2019/12/17/earlygifttomyself.html</url>
+      
+        <content type="html"><![CDATA[<p>Installed Windows Server 2019! Oh, and I finally ended my struggle of being connected to that macOS thunderbolt to Ethernet, cross over madness. Now all I do is connect via WiFi to the RDP sessions. Also, I had a Windows Server 2016 issue about not having a license for Remote Desktop Services so I couldn’t connect via RDP hence the cross over madness (thanks to all available jack ports). </p><h1 id="What-I-learned"><a href="#What-I-learned" class="headerlink" title="What I learned"></a>What I learned</h1><ol><li>When in a domain, RDP will need CALs; drop the domain and RDP will work.</li></ol><p>That’s all for now. Back to studying.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+          <category> windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> server </tag>
+            
+            <tag> windows </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>compTIA A+</title>
       <link href="/2019/12/08/compTIAa+.html"/>
       <url>/2019/12/08/compTIAa+.html</url>
