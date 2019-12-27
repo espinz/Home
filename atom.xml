@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://espinz.com/"/>
-  <updated>2019-12-17T09:29:40.488Z</updated>
+  <updated>2019-12-27T21:29:41.873Z</updated>
   <id>https://espinz.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Safari needs to rebuild to Chromium</title>
+    <link href="https://espinz.com/2019/12/27/safarineedstorebuildtochromium.html"/>
+    <id>https://espinz.com/2019/12/27/safarineedstorebuildtochromium.html</id>
+    <published>2019-12-27T21:00:36.000Z</published>
+    <updated>2019-12-27T21:29:41.873Z</updated>
+    
+    <content type="html"><![CDATA[<p>This way I can use webp for all my images. Once Microsoft Edge is released and (when) Safari is rebuilt, webp images will display nicely across all web browsers.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;This way I can use webp for all my images. Once Microsoft Edge is released and (when) Safari is rebuilt, webp images will display nicely 
+      
+    
+    </summary>
+    
+      <category term="os" scheme="https://espinz.com/categories/os/"/>
+    
+      <category term="macos" scheme="https://espinz.com/categories/os/macos/"/>
+    
+    
+      <category term="macOS" scheme="https://espinz.com/tags/macOS/"/>
+    
+  </entry>
   
   <entry>
     <title>Early gift to myself</title>
@@ -339,15 +366,13 @@ There are four types of variables.
     <link href="https://espinz.com/2019/10/02/workingwithmDT.html"/>
     <id>https://espinz.com/2019/10/02/workingwithmDT.html</id>
     <published>2019-10-02T21:00:24.000Z</published>
-    <updated>2019-12-08T23:33:23.225Z</updated>
+    <updated>2019-12-27T21:36:44.202Z</updated>
     
     <content type="html"><![CDATA[<p>I got a chance to deploy my first pxe-boot installation. I installed Windows 10 Enterprise on a Hyper-V virtual machine. </p><a id="more"></a><p>I would try it on a bare bone but the current set up is complicated: wifi, shared internet over thunderbolt, cross over cable. I guess what I am trying to say is that it is not connected to a switch? Wait! I just disconnect the Ethernet and connect the test unit. Maybe later.</p><p>I will document my notes on a new menu link above. I am thinking of calling it Windows and you will find it at the top soon. </p><p>Yes, I would like consider myself a GNU/Linux guy but it seems like I’m “forced” to toggle all three: Unix/Unix-like(macOS, FreeBSD), GNU/Linux, Windows.</p><p><img src="/images/MDT.png" alt="over dhcp"></p>]]></content>
     
     <summary type="html">
     
-      I got a chance to deploy my first pxe-boot installation. I installed Windows 10 Enterprise on a Hyper-V virtual machine. 
-
-I would try it on a bare bone but the current set up is complicated: wifi, shared internet over thunderbolt, cross over cable. I guess what I am trying to say is that it is not 
+      &lt;p&gt;I got a chance to deploy my first pxe-boot installation. I installed Windows 10 Enterprise on a Hyper-V virtual machine. &lt;/p&gt;
     
     </summary>
     
@@ -367,22 +392,17 @@ I would try it on a bare bone but the current set up is complicated: wifi, share
     <link href="https://espinz.com/2019/10/02/somanywaystosave.html"/>
     <id>https://espinz.com/2019/10/02/somanywaystosave.html</id>
     <published>2019-10-02T16:00:04.000Z</published>
-    <updated>2019-12-08T23:33:23.222Z</updated>
+    <updated>2019-12-27T21:31:48.336Z</updated>
     
     <content type="html"><![CDATA[<p>I knew about wq, x and only rediscovered ZZ when going over the text editor chapters. #Linux+, #vi, #vim?</p><figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">:x</span><br><span class="line">:ZZ</span><br><span class="line">:wq</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
-      I knew about wq, x and only rediscovered ZZ when going over the text editor chapters. #Linux+, #vi, #vim?
-
-1
-2
-3
-
-
-:x
-:ZZ
-:wq
+      
+      
+        &lt;p&gt;I knew about wq, x and only rediscovered ZZ when going over the text editor chapters. #Linux+, #vi, #vim?&lt;/p&gt;
+&lt;figure class=&quot;highlight pl
+      
     
     </summary>
     
@@ -524,38 +544,6 @@ echo $0 #Result bash
     
     
       <category term="thought" scheme="https://espinz.com/tags/thought/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>I gave into temptation</title>
-    <link href="https://espinz.com/2019/09/04/workingwithdockeronwindows.html"/>
-    <id>https://espinz.com/2019/09/04/workingwithdockeronwindows.html</id>
-    <published>2019-09-05T03:00:57.000Z</published>
-    <updated>2019-11-09T19:01:41.654Z</updated>
-    
-    <content type="html"><![CDATA[<p>What can I say — I gave into temptation: dropped all my OpenCV reading to play with docker-machine.</p><p>image below</p><a id="more"></a><p><img src="/images/vmWorkers.png" alt="vmWorkers"></p>]]></content>
-    
-    <summary type="html">
-    
-      What can I say — I gave into temptation: dropped all my OpenCV reading to play with docker-machine.
-
-image below
-    
-    </summary>
-    
-      <category term="os" scheme="https://espinz.com/categories/os/"/>
-    
-      <category term="windows" scheme="https://espinz.com/categories/os/windows/"/>
-    
-    
-      <category term="bash" scheme="https://espinz.com/tags/bash/"/>
-    
-      <category term="docker" scheme="https://espinz.com/tags/docker/"/>
-    
-      <category term="docker-machine" scheme="https://espinz.com/tags/docker-machine/"/>
-    
-      <category term="windows" scheme="https://espinz.com/tags/windows/"/>
     
   </entry>
   
