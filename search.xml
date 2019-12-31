@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Waking up to a broken RDP</title>
+      <link href="/2019/12/31/wakinguptoabrokenrDP.html"/>
+      <url>/2019/12/31/wakinguptoabrokenrDP.html</url>
+      
+        <content type="html"><![CDATA[<p>I decided to log into Windows 2019 today. It gave a 204 error. I suppose if you don’t log in for over a week it breaks. Something happened. I just have to figure out what “broke”. Usually, if you don’t touch it, it will not break..</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+          <category> windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> windows </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Safari needs to rebuild to Chromium</title>
       <link href="/2019/12/27/safarineedstorebuildtochromium.html"/>
       <url>/2019/12/27/safarineedstorebuildtochromium.html</url>

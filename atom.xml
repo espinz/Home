@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://espinz.com/"/>
-  <updated>2019-12-27T21:29:41.873Z</updated>
+  <updated>2019-12-31T17:36:00.122Z</updated>
   <id>https://espinz.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Waking up to a broken RDP</title>
+    <link href="https://espinz.com/2019/12/31/wakinguptoabrokenrDP.html"/>
+    <id>https://espinz.com/2019/12/31/wakinguptoabrokenrDP.html</id>
+    <published>2019-12-31T17:00:40.000Z</published>
+    <updated>2019-12-31T17:36:00.122Z</updated>
+    
+    <content type="html"><![CDATA[<p>I decided to log into Windows 2019 today. It gave a 204 error. I suppose if you don’t log in for over a week it breaks. Something happened. I just have to figure out what “broke”. Usually, if you don’t touch it, it will not break..</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;I decided to log into Windows 2019 today. It gave a 204 error. I suppose if you don’t log in for over a week it breaks. Something happene
+      
+    
+    </summary>
+    
+      <category term="os" scheme="https://espinz.com/categories/os/"/>
+    
+      <category term="windows" scheme="https://espinz.com/categories/os/windows/"/>
+    
+    
+      <category term="windows" scheme="https://espinz.com/tags/windows/"/>
+    
+  </entry>
   
   <entry>
     <title>Safari needs to rebuild to Chromium</title>
@@ -366,7 +393,7 @@ There are four types of variables.
     <link href="https://espinz.com/2019/10/02/workingwithmDT.html"/>
     <id>https://espinz.com/2019/10/02/workingwithmDT.html</id>
     <published>2019-10-02T21:00:24.000Z</published>
-    <updated>2019-12-27T21:36:44.202Z</updated>
+    <updated>2019-12-31T17:37:09.416Z</updated>
     
     <content type="html"><![CDATA[<p>I got a chance to deploy my first pxe-boot installation. I installed Windows 10 Enterprise on a Hyper-V virtual machine. </p><a id="more"></a><p>I would try it on a bare bone but the current set up is complicated: wifi, shared internet over thunderbolt, cross over cable. I guess what I am trying to say is that it is not connected to a switch? Wait! I just disconnect the Ethernet and connect the test unit. Maybe later.</p><p>I will document my notes on a new menu link above. I am thinking of calling it Windows and you will find it at the top soon. </p><p>Yes, I would like consider myself a GNU/Linux guy but it seems like I’m “forced” to toggle all three: Unix/Unix-like(macOS, FreeBSD), GNU/Linux, Windows.</p><p><img src="/images/MDT.png" alt="over dhcp"></p>]]></content>
     
@@ -520,30 +547,6 @@ echo $0 #Result bash
     
     
       <category term="bash" scheme="https://espinz.com/tags/bash/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Slow month</title>
-    <link href="https://espinz.com/2019/09/17/slowmonth.html"/>
-    <id>https://espinz.com/2019/09/17/slowmonth.html</id>
-    <published>2019-09-17T21:00:25.000Z</published>
-    <updated>2019-11-09T19:01:41.647Z</updated>
-    
-    <content type="html"><![CDATA[<p>It has been a slow month. I haven’t done much python, or bash, or reading. So what have I been up to? Studying for the new compTIA Linux+ XK0-004. Everything has been dropped and put on the back burner for now. If I do post something it should be about something I learned in my studies.</p>]]></content>
-    
-    <summary type="html">
-    
-      It has been a slow month. I haven’t done much python, or bash, or reading. So what have I been up to? Studying for the new compTIA Linux+ XK0-004. Everything has been dropped and put on the back burner for now. If I do post something it should be about something I learned in my studies.
-    
-    </summary>
-    
-      <category term="unique" scheme="https://espinz.com/categories/unique/"/>
-    
-      <category term="thought" scheme="https://espinz.com/categories/unique/thought/"/>
-    
-    
-      <category term="thought" scheme="https://espinz.com/tags/thought/"/>
     
   </entry>
   
