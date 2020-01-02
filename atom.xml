@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://espinz.com/"/>
-  <updated>2019-12-31T17:36:00.122Z</updated>
+  <updated>2020-01-02T19:31:31.641Z</updated>
   <id>https://espinz.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>New Year</title>
+    <link href="https://espinz.com/2020/01/02/newyear.html"/>
+    <id>https://espinz.com/2020/01/02/newyear.html</id>
+    <published>2020-01-02T19:00:43.000Z</published>
+    <updated>2020-01-02T19:31:31.641Z</updated>
+    
+    <content type="html"><![CDATA[<p>364 days left until 2021! Why am I already thinking about the next year?</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;364 days left until 2021! Why am I already thinking about the next year?&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="unique" scheme="https://espinz.com/categories/unique/"/>
+    
+      <category term="thought" scheme="https://espinz.com/categories/unique/thought/"/>
+    
+    
+      <category term="thought" scheme="https://espinz.com/tags/thought/"/>
+    
+  </entry>
   
   <entry>
     <title>Waking up to a broken RDP</title>
@@ -75,7 +103,7 @@
     <link href="https://espinz.com/2019/12/17/earlygifttomyself.html"/>
     <id>https://espinz.com/2019/12/17/earlygifttomyself.html</id>
     <published>2019-12-17T09:00:39.000Z</published>
-    <updated>2019-12-17T09:29:40.488Z</updated>
+    <updated>2019-12-17T09:31:14.646Z</updated>
     
     <content type="html"><![CDATA[<p>Installed Windows Server 2019! Oh, and I finally ended my struggle of being connected to that macOS thunderbolt to Ethernet, cross over madness. Now all I do is connect via WiFi to the RDP sessions. Also, I had a Windows Server 2016 issue about not having a license for Remote Desktop Services so I couldn’t connect via RDP hence the cross over madness (thanks to all available jack ports). </p><h1 id="What-I-learned"><a href="#What-I-learned" class="headerlink" title="What I learned"></a>What I learned</h1><ol><li>When in a domain, RDP will need CALs; drop the domain and RDP will work.</li></ol><p>That’s all for now. Back to studying.</p>]]></content>
     
@@ -93,9 +121,9 @@
       <category term="windows" scheme="https://espinz.com/categories/os/windows/"/>
     
     
-      <category term="server" scheme="https://espinz.com/tags/server/"/>
-    
       <category term="windows" scheme="https://espinz.com/tags/windows/"/>
+    
+      <category term="server" scheme="https://espinz.com/tags/server/"/>
     
   </entry>
   
@@ -134,7 +162,12 @@
     
     <summary type="html">
     
-      A small refresher.
+      
+      
+        &lt;p&gt;A small refresher.&lt;/p&gt;
+&lt;script src=&quot;//gist.github.com/73851d113dc4fb75e5ee808b48f5cc06.js&quot;&gt;&lt;/script&gt;
+
+      
     
     </summary>
     
@@ -158,7 +191,7 @@
     
     <summary type="html">
     
-      Some ssh recipes.
+      &lt;p&gt;Some ssh recipes.&lt;/p&gt;
     
     </summary>
     
@@ -184,7 +217,7 @@
     
     <summary type="html">
     
-      Some vim recipes.
+      &lt;p&gt;Some vim recipes.&lt;/p&gt;
     
     </summary>
     
@@ -208,7 +241,10 @@
     
     <summary type="html">
     
-      Just finished up on aliases and environment variables. Moving on to shell configuration and command redirection. I might order the compTIA certmaster learn for Linux+. I feel like my studying is going fine but after reviewing their program layout, I might be able to speed up the process if I use the
+      
+      
+        &lt;p&gt;Just finished up on aliases and environment variables. Moving on to shell configuration and command redirection. I might order the compTI
+      
     
     </summary>
     
@@ -232,9 +268,13 @@
     
     <summary type="html">
     
-      Spring cleaning, Summer air out, Fall sweeping?
-
-This site has three errors: dead URL links which read 404. I find it very strange because the on the development server everything is up and running. I suppose it’s a perfect time to say “it works on my machine!”. Maybe a force update will help it rec
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;Spring cleaning, Summer air out, Fall sweeping?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This site has three errors: dead URL links which read 4
+      
     
     </summary>
     
@@ -258,7 +298,11 @@ This site has three errors: dead URL links which read 404. I find it very strang
     
     <summary type="html">
     
-      I had files that were exploded across the filesystem. My goal was to find them all.
+      
+      
+        &lt;p&gt;I had files that were exploded across the filesystem. My goal was to find them all.&lt;/p&gt;
+&lt;script src=&quot;//gist.github.com/8d0bb9197d45dfecfb
+      
     
     </summary>
     
@@ -286,9 +330,10 @@ This site has three errors: dead URL links which read 404. I find it very strang
     
     <summary type="html">
     
-      Just installed Ubuntu 19.10 via VMware easy install. The reason behind the installation is for practice labs. Ubuntu 19.10 might be a little too new for practice labs but we will see. Speaking of seeing, watch me set and unset an environment variable on the newly installed OS! 
-
-BONUS: the output of
+      
+      
+        &lt;p&gt;Just installed  Ubuntu 19.10 via VMware easy install. The reason behind the installation is for practice labs. Ubuntu 19.10 might be a li
+      
     
     </summary>
     
@@ -314,7 +359,11 @@ BONUS: the output of
     
     <summary type="html">
     
-      The flash cards are piling up!
+      
+      
+        &lt;p&gt;The flash cards are piling up!&lt;/p&gt;
+
+      
     
     </summary>
     
@@ -340,9 +389,7 @@ BONUS: the output of
     
     <summary type="html">
     
-      This week is all about editors: I am studying nano and vim. I do not have much to report on besides that.
-
-I already know most of the basics in regards to vim. Nano — I know nothing. Most of the commands are at the bottom but in order to prepare myself for compTIA’s Linux+ I really should know them 
+      &lt;p&gt;This week is all about editors: I am studying nano and vim. I do not have much to report on besides that.&lt;/p&gt;
     
     </summary>
     
@@ -362,18 +409,13 @@ I already know most of the basics in regards to vim. Nano — I know nothing. Mo
     <link href="https://espinz.com/2019/10/05/environmentvariables.html"/>
     <id>https://espinz.com/2019/10/05/environmentvariables.html</id>
     <published>2019-10-05T20:00:32.000Z</published>
-    <updated>2019-12-08T23:33:23.218Z</updated>
+    <updated>2020-01-02T19:35:45.396Z</updated>
     
     <content type="html"><![CDATA[<p>I am making good progress! Linux+ here I come! Lets hope the trough of disillusionment doesn’t happen.</p><a id="more"></a><h1 id="There-are-four-types-of-variables"><a href="#There-are-four-types-of-variables" class="headerlink" title="There are four types of variables."></a>There are four types of variables.</h1><ol><li>Environment - Has inheritance and generated by system settings.<br><code>export FRUIT=&quot;orange&quot; # Environment</code></li><li>Shell - Has no inheritance and generated by shell startup scripts.<br><code>FRUIT=&quot;orange&quot; # Shell</code></li><li>User - Defined on the command prompt and defined in user profiles.<br><code>fruit=&quot;orange&quot; # User/Local to the shell prompt</code></li><li>Local - Defined in script functions.<br><code>fruit=&quot;orange&quot; # Local</code></li></ol><h1 id="The-commands-in-the-image"><a href="#The-commands-in-the-image" class="headerlink" title="The commands in the image"></a>The commands in the image</h1><p>Searched for the environment variable called FRUIT; not found.<br>FRUIT is defined and exported.<br>Searched again and found.<br>Spawned a child shell.<br>Searched again and found.<br><img src="/images/small-tty.gif" alt="environment variables"></p>]]></content>
     
     <summary type="html">
     
-      I am making good progress! Linux+ here I come! Lets hope the trough of disillusionment doesn’t happen.
-
-There are four types of variables.
- 1. Environment - Has inheritance and generated by system settings.
-    export FRUIT=&quot;orange&quot; # Environment
- 2. Shell - Has no inheritance and generated by shell
+      &lt;p&gt;I am making good progress! Linux+ here I come! Lets hope the trough of disillusionment doesn’t happen.&lt;/p&gt;
     
     </summary>
     
@@ -419,7 +461,7 @@ There are four types of variables.
     <link href="https://espinz.com/2019/10/02/somanywaystosave.html"/>
     <id>https://espinz.com/2019/10/02/somanywaystosave.html</id>
     <published>2019-10-02T16:00:04.000Z</published>
-    <updated>2019-12-27T21:31:48.336Z</updated>
+    <updated>2020-01-02T19:31:34.780Z</updated>
     
     <content type="html"><![CDATA[<p>I knew about wq, x and only rediscovered ZZ when going over the text editor chapters. #Linux+, #vi, #vim?</p><figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">:x</span><br><span class="line">:ZZ</span><br><span class="line">:wq</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -479,11 +521,7 @@ There are four types of variables.
     
     <summary type="html">
     
-      I couldn’t resist. What can I say — I’m weak!: I setup a GNS3 network topology!
-
-
-
-For some context, I will explain how this happened. I started reading about something called CCNA Routing and Switching (Cisco Certified Network Associate). I seen some videos of people using a virtual network simulat
+      &lt;p&gt;I couldn’t resist. What can I say — I’m weak!: I setup a GNS3 network topology!&lt;/p&gt;
     
     </summary>
     
@@ -507,7 +545,10 @@ For some context, I will explain how this happened. I started reading about some
     
     <summary type="html">
     
-      Environment, shell, user and local variables. An important rule I learned today is how to name local variables; always use a lower case naming convention to avoid overwriting environment or shell variables.
+      
+      
+        &lt;p&gt;Environment, shell, user and local variables. An important rule I learned today is how to name local variables; always use a lower case n
+      
     
     </summary>
     
@@ -517,36 +558,6 @@ For some context, I will explain how this happened. I started reading about some
     
     
       <category term="Bash" scheme="https://espinz.com/tags/Bash/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Returning the current shell</title>
-    <link href="https://espinz.com/2019/09/23/returningthecurrentshell.html"/>
-    <id>https://espinz.com/2019/09/23/returningthecurrentshell.html</id>
-    <published>2019-09-23T15:00:28.000Z</published>
-    <updated>2019-11-09T19:01:41.647Z</updated>
-    
-    <content type="html"><![CDATA[<p>I always used <code>echo $SHELL</code> to return the current shell. Going over some studying material I rediscovered echo $0. This positional parameter, <code>$0</code>, assigns the current shell into that shell variable.<br>Try it:</p><figure class="highlight sh hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-built_in">echo</span> <span class="hljs-variable">$0</span> <span class="hljs-comment">#Result bash</span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      I always used echo $SHELL to return the current shell. Going over some studying material I rediscovered echo $0. This positional parameter, $0, assigns the current shell into that shell variable.
-Try it:
-
-1
-
-
-echo $0 #Result bash
-    
-    </summary>
-    
-      <category term="terminal" scheme="https://espinz.com/categories/terminal/"/>
-    
-      <category term="shell" scheme="https://espinz.com/categories/terminal/shell/"/>
-    
-    
-      <category term="bash" scheme="https://espinz.com/tags/bash/"/>
     
   </entry>
   

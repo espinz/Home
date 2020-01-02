@@ -188,7 +188,7 @@
             
         </h1>
         <div class="content">
-            Some ssh recipes.
+            <p>Some ssh recipes.</p>
         </div>
         
         
@@ -246,7 +246,7 @@
             
         </h1>
         <div class="content">
-            Some vim recipes.
+            <p>Some vim recipes.</p>
         </div>
         
         
@@ -304,17 +304,11 @@
             
         </h1>
         <div class="content">
-            I had files that were exploded across the filesystem. My goal was to find them all.
+            <p>I had files that were exploded across the filesystem. My goal was to find them all.</p>
+<script src="//gist.github.com/8d0bb9197d45dfecfb171e6c5de673fb.js"></script>
+
         </div>
         
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/10/29/explosionoffiles.html#more">Read More</a>
-                </div>
-            </div>
-        </div>
         
         
     </div>
@@ -403,17 +397,10 @@
             
         </h1>
         <div class="content">
-            Environment, shell, user and local variables. An important rule I learned today is how to name local variables; always use a lower case naming convention to avoid overwriting environment or shell variables.
+            <p>Environment, shell, user and local variables. An important rule I learned today is how to name local variables; always use a lower case naming convention to avoid overwriting environment or shell variables.</p>
+
         </div>
         
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/09/24/variables.html#more">Read More</a>
-                </div>
-            </div>
-        </div>
         
         
     </div>
@@ -455,23 +442,12 @@
             
         </h1>
         <div class="content">
-            I always used echo $SHELL to return the current shell. Going over some studying material I rediscovered echo $0. This positional parameter, $0, assigns the current shell into that shell variable.
-Try it:
-
-1
+            <p>I always used <code>echo $SHELL</code> to return the current shell. Going over some studying material I rediscovered echo $0. This positional parameter, <code>$0</code>, assigns the current shell into that shell variable.<br>Try it:</p>
+<figure class="highlight sh hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-built_in">echo</span> <span class="hljs-variable">$0</span> <span class="hljs-comment">#Result bash</span></span><br></pre></td></tr></table></figure>
 
 
-echo $0 #Result bash
         </div>
         
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/09/23/returningthecurrentshell.html#more">Read More</a>
-                </div>
-            </div>
-        </div>
         
         
     </div>
@@ -513,29 +489,12 @@ echo $0 #Result bash
             
         </h1>
         <div class="content">
-            A smaller reminder. If you rebase/squash, and reset hard, you will lose your important addition; use git reflog to recover. The commit “Important addition.” was at HEAD@{3}.
-
-1
-2
-3
-4
-5
+            <p>A smaller reminder. If you rebase/squash, and reset hard, you will lose your important addition; use git reflog to recover. The commit “Important addition.” was at HEAD@{3}.</p>
+<figure class="highlight sh hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git add &amp;&amp; git commit -am <span class="hljs-string">"Important addition."</span></span><br><span class="line">git rebase -i HEAD~3 <span class="hljs-comment"># did a squash</span></span><br><span class="line">git reset --hard HEAD~2</span><br><span class="line">git reflog</span><br><span class="line">git reset --hard HEAD@&#123;3&#125;</span><br></pre></td></tr></table></figure>
 
 
-git add && git commit -am "Important addition."
-git rebase -i HEAD~3 # did a squash
-git reset --hard HEAD~2
-git r
         </div>
         
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/09/01/gitrecovery.html#more">Read More</a>
-                </div>
-            </div>
-        </div>
         
         
     </div>
@@ -578,11 +537,16 @@ git r
         </h1>
         <div class="content">
             <p><img src="/images/tty.gif" alt></p>
-<a id="more"></a>
-<script src="//gist.github.com/608479f54ea9aac540fcb8205831bbe4.js"></script>
-
         </div>
         
+        
+        <div class="level is-mobile">
+            <div class="level-start">
+                <div class="level-item">
+                <a class="button is-size-7 is-light" href="/2019/08/15/recordingterminalcommands.html#more">Read More</a>
+                </div>
+            </div>
+        </div>
         
         
     </div>
@@ -624,46 +588,7 @@ git r
             
         </h1>
         <div class="content">
-            I got tired of typing in my categories. So, I created a menu based on my categories with ncurses. This way I can select a category from a menu. Cool!
-
-ncurses for bash — dialog
-Here is the case statement.
-
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-3
+            <p>I got tired of typing in my categories. So, I created a menu based on my categories with ncurses. This way I can select a category from a menu. Cool!</p>
         </div>
         
         
@@ -715,41 +640,7 @@ Here is the case statement.
             
         </h1>
         <div class="content">
-            Here are some git commands I seem to forget. Having them near by helps. 
-
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-
-
-git checkout -b feature OR git branch feature
-# list branches
-git branch
-
-# push to remote
-git push --set-upstream origin feature
-
-# delete remote branch
-git push orig
+            <p>Here are some git commands I seem to forget. Having them near by helps. </p>
         </div>
         
         
@@ -801,17 +692,7 @@ git push orig
             
         </h1>
         <div class="content">
-            My little “Secret”
-
-Actually, this script has been abandon for something a little more … involved.
-
-Currently working on it. How involved?
-
-Emacs, Org mode, Jekyll, GitHub, and some custom Elisp.
-
-This one might take awhile.
-
-Update: Emacs will be used on my personal computer but I am looking for a 
+            <p>My little “Secret”</p>
         </div>
         
         
@@ -863,12 +744,8 @@ Update: Emacs will be used on my personal computer but I am looking for a
             
         </h1>
         <div class="content">
-            Problem: rm complains “Argument list too long” when trying to delete 1 million files. 
-
-Solution: run the find command.
-Why: working on a new clean up script. 
-
-Photo by Carles Rabada
+            <p>Problem: rm complains “Argument list too long” when trying to delete 1 million files. </p>
+<p>Solution: run the find command.<br>Why: working on a new clean up script. </p>
         </div>
         
         
@@ -920,46 +797,12 @@ Photo by Carles Rabada
             
         </h1>
         <div class="content">
-            Access VNC from far away.
-
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
+            <p>Access VNC from far away.</p>
+<figure class="highlight sh hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">Host firstHop</span><br><span class="line">    Hostname x.x.x.x</span><br><span class="line">    User username</span><br><span class="line">    IdentityFile ~/.ssh/firstHop-id_rsa</span><br><span class="line">Host secondHop</span><br><span class="line">    Hostname x.x.x.x</span><br><span class="line">    User username</span><br><span class="line">    IdentityFile ~/.ssh/secondHop-id_rsa</span><br><span class="line">    ProxyCommand ssh firstHop -W %h:%p</span><br><span class="line">Host thirdHop</span><br><span class="line">    Hostname 127.0.0.1</span><br><span class="line">    User username</span><br><span class="line">    IdentityFile ~/.ssh/thirdHop-id_rsa</span><br><span class="line">    ProxyCommand ssh secondHop -W %h:%p</span><br><span class="line">    Port xxxx</span><br><span class="line">    LocalForward xxxx 127.0.0.1:5901</span><br></pre></td></tr></table></figure>
 
 
-Host firstHop
-    Hostname x.x.x.x
-    User username
-    IdentityFile ~/.ssh/firstHop-id_rsa
-Host secondHop
-    Hostname x.x.x.x
-    User username
-    IdentityFile ~/.ssh/secondHop-id_rsa
-    ProxyCommand ssh firstHop -W %h:%p
-Host 
         </div>
         
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/03/01/tunneltunnel.html#more">Read More</a>
-                </div>
-            </div>
-        </div>
         
         
     </div>
@@ -1001,17 +844,10 @@ Host
             
         </h1>
         <div class="content">
-            Remove all files in the master branch; without breaking the git history
+            <p>Remove all files in the master branch; without breaking the git history</p>
+<script src="//gist.github.com/af5dc25bcf8edc046c7cc069388c99ab.js"></script>
         </div>
         
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/02/19/removeallfiles.html#more">Read More</a>
-                </div>
-            </div>
-        </div>
         
         
     </div>
@@ -1058,6 +894,25 @@ Host
         <h3 class="menu-label">
             Recent
         </h3>
+        
+        <article class="media">
+            
+            <a href="/2020/01/02/newyear.html" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/2020-01-02.jpg" alt="New Year">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-01-02T19:00:43.000Z">2020-01-02</time></div>
+                    <a href="/2020/01/02/newyear.html" class="has-link-black-ter is-size-6">New Year</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/unique/">unique</a> / <a class="has-link-grey -link" href="/categories/unique/thought/">thought</a>
+                    </p>
+                </div>
+            </div>
+        </article>
         
         <article class="media">
             
@@ -1135,25 +990,6 @@ Host
             </div>
         </article>
         
-        <article class="media">
-            
-            <a href="/2019/11/09/abasicpythonclass.html" class="media-left">
-                <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/2019-11-09.jpg" alt="A basic python class">
-                </p>
-            </a>
-            
-            <div class="media-content">
-                <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-11-09T19:00:35.000Z">2019-11-09</time></div>
-                    <a href="/2019/11/09/abasicpythonclass.html" class="has-link-black-ter is-size-6">A basic python class</a>
-                    <p class="is-size-7 is-uppercase">
-                        <a class="has-link-grey -link" href="/categories/computer/">computer</a> / <a class="has-link-grey -link" href="/categories/computer/languages/">languages</a>
-                    </p>
-                </div>
-            </div>
-        </article>
-        
     </div>
 </div>
 
@@ -1165,6 +1001,17 @@ Host
             Archives
         </h3>
         <ul class="menu-list">
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2020/01/">
+                <span class="level-start">
+                    <span class="level-item">January 2020</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">1</span>
+                </span>
+            </a>
+        </li>
         
         <li>
             <a class="level is-marginless" href="/archives/2019/12/">
@@ -1337,7 +1184,7 @@ Host
                         Posts
                     </p>
                     <p class="title has-text-weight-normal">
-                        69
+                        70
                     </p>
                 </div>
             </div>
@@ -1401,7 +1248,7 @@ Host
         <h3 class="menu-label">
             Tag Cloud
         </h3>
-        <a href="/tags/Bash/" style="font-size: 10px;">Bash</a> <a href="/tags/JavaScript/" style="font-size: 10px;">JavaScript</a> <a href="/tags/Linux/" style="font-size: 10px;">Linux</a> <a href="/tags/Linux/" style="font-size: 12.5px;">Linux+</a> <a href="/tags/MDT/" style="font-size: 10px;">MDT</a> <a href="/tags/Microsoft/" style="font-size: 10px;">Microsoft</a> <a href="/tags/Ubuntu/" style="font-size: 10px;">Ubuntu</a> <a href="/tags/api/" style="font-size: 10px;">api</a> <a href="/tags/bash/" style="font-size: 20px;">bash</a> <a href="/tags/c/" style="font-size: 11.25px;">c</a> <a href="/tags/cable/" style="font-size: 10px;">cable</a> <a href="/tags/coaxial/" style="font-size: 10px;">coaxial</a> <a href="/tags/command/" style="font-size: 13.75px;">command</a> <a href="/tags/compTIA/" style="font-size: 13.75px;">compTIA</a> <a href="/tags/console/" style="font-size: 10px;">console</a> <a href="/tags/cpp/" style="font-size: 11.25px;">cpp</a> <a href="/tags/debian/" style="font-size: 12.5px;">debian</a> <a href="/tags/distro/" style="font-size: 10px;">distro</a> <a href="/tags/docker/" style="font-size: 10px;">docker</a> <a href="/tags/docker-machine/" style="font-size: 10px;">docker-machine</a> <a href="/tags/ejs/" style="font-size: 10px;">ejs</a> <a href="/tags/espinz/" style="font-size: 13.75px;">espinz</a> <a href="/tags/find/" style="font-size: 10px;">find</a> <a href="/tags/git/" style="font-size: 13.75px;">git</a> <a href="/tags/gnome/" style="font-size: 10px;">gnome</a> <a href="/tags/hardware/" style="font-size: 10px;">hardware</a> <a href="/tags/hexo/" style="font-size: 15px;">hexo</a> <a href="/tags/icarus/" style="font-size: 11.25px;">icarus</a> <a href="/tags/internet/" style="font-size: 10px;">internet</a> <a href="/tags/javascript/" style="font-size: 11.25px;">javascript</a> <a href="/tags/jekyll/" style="font-size: 10px;">jekyll</a> <a href="/tags/js/" style="font-size: 10px;">js</a> <a href="/tags/jupyter/" style="font-size: 10px;">jupyter</a> <a href="/tags/kde/" style="font-size: 11.25px;">kde</a> <a href="/tags/launchpad/" style="font-size: 10px;">launchpad</a> <a href="/tags/libraries/" style="font-size: 10px;">libraries</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/lsd/" style="font-size: 10px;">lsd</a> <a href="/tags/macOS/" style="font-size: 11.25px;">macOS</a> <a href="/tags/network/" style="font-size: 10px;">network</a> <a href="/tags/opencv/" style="font-size: 10px;">opencv</a> <a href="/tags/plasma/" style="font-size: 10px;">plasma</a> <a href="/tags/powershell/" style="font-size: 10px;">powershell</a> <a href="/tags/preseed/" style="font-size: 10px;">preseed</a> <a href="/tags/python/" style="font-size: 18.75px;">python</a> <a href="/tags/raspberry-pi/" style="font-size: 10px;">raspberry pi</a> <a href="/tags/recterm/" style="font-size: 10px;">recterm</a> <a href="/tags/scripting/" style="font-size: 16.25px;">scripting</a> <a href="/tags/serial/" style="font-size: 10px;">serial</a> <a href="/tags/server/" style="font-size: 11.25px;">server</a> <a href="/tags/shell/" style="font-size: 17.5px;">shell</a> <a href="/tags/simple-cdd/" style="font-size: 10px;">simple-cdd</a> <a href="/tags/splitter/" style="font-size: 10px;">splitter</a> <a href="/tags/ssh/" style="font-size: 10px;">ssh</a> <a href="/tags/supermicro/" style="font-size: 10px;">supermicro</a> <a href="/tags/swift/" style="font-size: 10px;">swift</a> <a href="/tags/thought/" style="font-size: 17.5px;">thought</a> <a href="/tags/ttygif/" style="font-size: 10px;">ttygif</a> <a href="/tags/ttyrec/" style="font-size: 10px;">ttyrec</a> <a href="/tags/unsplash/" style="font-size: 11.25px;">unsplash</a> <a href="/tags/usb/" style="font-size: 10px;">usb</a> <a href="/tags/vi/" style="font-size: 10px;">vi</a> <a href="/tags/vim/" style="font-size: 11.25px;">vim</a> <a href="/tags/windows/" style="font-size: 12.5px;">windows</a> <a href="/tags/zsh/" style="font-size: 10px;">zsh</a>
+        <a href="/tags/Bash/" style="font-size: 10px;">Bash</a> <a href="/tags/JavaScript/" style="font-size: 10px;">JavaScript</a> <a href="/tags/Linux/" style="font-size: 10px;">Linux</a> <a href="/tags/Linux/" style="font-size: 12.5px;">Linux+</a> <a href="/tags/MDT/" style="font-size: 10px;">MDT</a> <a href="/tags/Microsoft/" style="font-size: 10px;">Microsoft</a> <a href="/tags/Ubuntu/" style="font-size: 10px;">Ubuntu</a> <a href="/tags/api/" style="font-size: 10px;">api</a> <a href="/tags/bash/" style="font-size: 20px;">bash</a> <a href="/tags/c/" style="font-size: 11.25px;">c</a> <a href="/tags/cable/" style="font-size: 10px;">cable</a> <a href="/tags/coaxial/" style="font-size: 10px;">coaxial</a> <a href="/tags/command/" style="font-size: 13.75px;">command</a> <a href="/tags/compTIA/" style="font-size: 13.75px;">compTIA</a> <a href="/tags/console/" style="font-size: 10px;">console</a> <a href="/tags/cpp/" style="font-size: 11.25px;">cpp</a> <a href="/tags/debian/" style="font-size: 12.5px;">debian</a> <a href="/tags/distro/" style="font-size: 10px;">distro</a> <a href="/tags/docker/" style="font-size: 10px;">docker</a> <a href="/tags/docker-machine/" style="font-size: 10px;">docker-machine</a> <a href="/tags/ejs/" style="font-size: 10px;">ejs</a> <a href="/tags/espinz/" style="font-size: 13.75px;">espinz</a> <a href="/tags/find/" style="font-size: 10px;">find</a> <a href="/tags/git/" style="font-size: 13.75px;">git</a> <a href="/tags/gnome/" style="font-size: 10px;">gnome</a> <a href="/tags/hardware/" style="font-size: 10px;">hardware</a> <a href="/tags/hexo/" style="font-size: 15px;">hexo</a> <a href="/tags/icarus/" style="font-size: 11.25px;">icarus</a> <a href="/tags/internet/" style="font-size: 10px;">internet</a> <a href="/tags/javascript/" style="font-size: 11.25px;">javascript</a> <a href="/tags/jekyll/" style="font-size: 10px;">jekyll</a> <a href="/tags/js/" style="font-size: 10px;">js</a> <a href="/tags/jupyter/" style="font-size: 10px;">jupyter</a> <a href="/tags/kde/" style="font-size: 11.25px;">kde</a> <a href="/tags/launchpad/" style="font-size: 10px;">launchpad</a> <a href="/tags/libraries/" style="font-size: 10px;">libraries</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/lsd/" style="font-size: 10px;">lsd</a> <a href="/tags/macOS/" style="font-size: 11.25px;">macOS</a> <a href="/tags/network/" style="font-size: 10px;">network</a> <a href="/tags/opencv/" style="font-size: 10px;">opencv</a> <a href="/tags/plasma/" style="font-size: 10px;">plasma</a> <a href="/tags/powershell/" style="font-size: 10px;">powershell</a> <a href="/tags/preseed/" style="font-size: 10px;">preseed</a> <a href="/tags/python/" style="font-size: 18.75px;">python</a> <a href="/tags/raspberry-pi/" style="font-size: 10px;">raspberry pi</a> <a href="/tags/recterm/" style="font-size: 10px;">recterm</a> <a href="/tags/scripting/" style="font-size: 16.25px;">scripting</a> <a href="/tags/serial/" style="font-size: 10px;">serial</a> <a href="/tags/server/" style="font-size: 11.25px;">server</a> <a href="/tags/shell/" style="font-size: 17.5px;">shell</a> <a href="/tags/simple-cdd/" style="font-size: 10px;">simple-cdd</a> <a href="/tags/splitter/" style="font-size: 10px;">splitter</a> <a href="/tags/ssh/" style="font-size: 10px;">ssh</a> <a href="/tags/supermicro/" style="font-size: 10px;">supermicro</a> <a href="/tags/swift/" style="font-size: 10px;">swift</a> <a href="/tags/thought/" style="font-size: 18.75px;">thought</a> <a href="/tags/ttygif/" style="font-size: 10px;">ttygif</a> <a href="/tags/ttyrec/" style="font-size: 10px;">ttyrec</a> <a href="/tags/unsplash/" style="font-size: 11.25px;">unsplash</a> <a href="/tags/usb/" style="font-size: 10px;">usb</a> <a href="/tags/vi/" style="font-size: 10px;">vi</a> <a href="/tags/vim/" style="font-size: 11.25px;">vim</a> <a href="/tags/windows/" style="font-size: 12.5px;">windows</a> <a href="/tags/zsh/" style="font-size: 10px;">zsh</a>
     </div>
 </div>
 
@@ -1415,6 +1262,25 @@ Host
         <h3 class="menu-label">
             Recent
         </h3>
+        
+        <article class="media">
+            
+            <a href="/2020/01/02/newyear.html" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/2020-01-02.jpg" alt="New Year">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-01-02T19:00:43.000Z">2020-01-02</time></div>
+                    <a href="/2020/01/02/newyear.html" class="has-link-black-ter is-size-6">New Year</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/unique/">unique</a> / <a class="has-link-grey -link" href="/categories/unique/thought/">thought</a>
+                    </p>
+                </div>
+            </div>
+        </article>
         
         <article class="media">
             
@@ -1492,25 +1358,6 @@ Host
             </div>
         </article>
         
-        <article class="media">
-            
-            <a href="/2019/11/09/abasicpythonclass.html" class="media-left">
-                <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/2019-11-09.jpg" alt="A basic python class">
-                </p>
-            </a>
-            
-            <div class="media-content">
-                <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-11-09T19:00:35.000Z">2019-11-09</time></div>
-                    <a href="/2019/11/09/abasicpythonclass.html" class="has-link-black-ter is-size-6">A basic python class</a>
-                    <p class="is-size-7 is-uppercase">
-                        <a class="has-link-grey -link" href="/categories/computer/">computer</a> / <a class="has-link-grey -link" href="/categories/computer/languages/">languages</a>
-                    </p>
-                </div>
-            </div>
-        </article>
-        
     </div>
 </div>
 
@@ -1522,6 +1369,17 @@ Host
             Archives
         </h3>
         <ul class="menu-list">
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2020/01/">
+                <span class="level-start">
+                    <span class="level-item">January 2020</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">1</span>
+                </span>
+            </a>
+        </li>
         
         <li>
             <a class="level is-marginless" href="/archives/2019/12/">
@@ -1666,7 +1524,7 @@ Host
                 
                 </a>
                 <p class="is-size-7">
-                &copy; 2019 Francisco Espinoza&nbsp;
+                &copy; 2020 Francisco Espinoza&nbsp;
                 Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> & <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank">Icarus. </a>
                         Images found on
                         <a href="https://unsplash.com" target="_blank"> Unsplash</a>.

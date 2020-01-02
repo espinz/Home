@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>New Year</title>
+      <link href="/2020/01/02/newyear.html"/>
+      <url>/2020/01/02/newyear.html</url>
+      
+        <content type="html"><![CDATA[<p>364 days left until 2021! Why am I already thinking about the next year?</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> unique </category>
+          
+          <category> thought </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> thought </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Waking up to a broken RDP</title>
       <link href="/2019/12/31/wakinguptoabrokenrDP.html"/>
       <url>/2019/12/31/wakinguptoabrokenrDP.html</url>
@@ -76,9 +103,9 @@
       
         <tags>
             
-            <tag> server </tag>
-            
             <tag> windows </tag>
+            
+            <tag> server </tag>
             
         </tags>
       
@@ -611,11 +638,11 @@
             
             <tag> bash </tag>
             
+            <tag> windows </tag>
+            
             <tag> docker </tag>
             
             <tag> docker-machine </tag>
-            
-            <tag> windows </tag>
             
         </tags>
       
@@ -1384,9 +1411,9 @@
       
         <tags>
             
-            <tag> supermicro </tag>
-            
             <tag> server </tag>
+            
+            <tag> supermicro </tag>
             
         </tags>
       
