@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://espinz.com/"/>
-  <updated>2020-01-02T19:31:31.641Z</updated>
+  <updated>2020-01-04T01:46:24.631Z</updated>
   <id>https://espinz.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>RDP DHCP and Firewall Scope</title>
+    <link href="https://espinz.com/2020/01/03/rDPdHCPandfirewallscope.html"/>
+    <id>https://espinz.com/2020/01/03/rDPdHCPandfirewallscope.html</id>
+    <published>2020-01-04T00:00:52.000Z</published>
+    <updated>2020-01-04T01:46:24.631Z</updated>
+    
+    <content type="html"><![CDATA[<p>Well, if any one is wondering how I “fixed” the RDP error 204 problem — I didn’t. There was nothing to fix. I just forgot that I added a scope to the windows firewall: only one IP address would connect to the server via RDP. When DHCP assigned a new address to the client that new address was locked out.</p><h1 id="Using-DHCP-with-manual-address"><a href="#Using-DHCP-with-manual-address" class="headerlink" title="Using DHCP with manual address"></a>Using DHCP with manual address</h1><p>Adding a manual address “fixed” the problem.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Well, if any one is wondering how I “fixed” the RDP error 204 problem — I didn’t. There was nothing to fix. I just forgot that I added a 
+      
+    
+    </summary>
+    
+      <category term="os" scheme="https://espinz.com/categories/os/"/>
+    
+      <category term="windows" scheme="https://espinz.com/categories/os/windows/"/>
+    
+    
+      <category term="RDP" scheme="https://espinz.com/tags/RDP/"/>
+    
+  </entry>
   
   <entry>
     <title>New Year</title>
@@ -103,7 +130,7 @@
     <link href="https://espinz.com/2019/12/17/earlygifttomyself.html"/>
     <id>https://espinz.com/2019/12/17/earlygifttomyself.html</id>
     <published>2019-12-17T09:00:39.000Z</published>
-    <updated>2019-12-17T09:31:14.646Z</updated>
+    <updated>2019-12-17T09:29:40.488Z</updated>
     
     <content type="html"><![CDATA[<p>Installed Windows Server 2019! Oh, and I finally ended my struggle of being connected to that macOS thunderbolt to Ethernet, cross over madness. Now all I do is connect via WiFi to the RDP sessions. Also, I had a Windows Server 2016 issue about not having a license for Remote Desktop Services so I couldn’t connect via RDP hence the cross over madness (thanks to all available jack ports). </p><h1 id="What-I-learned"><a href="#What-I-learned" class="headerlink" title="What I learned"></a>What I learned</h1><ol><li>When in a domain, RDP will need CALs; drop the domain and RDP will work.</li></ol><p>That’s all for now. Back to studying.</p>]]></content>
     
@@ -121,9 +148,9 @@
       <category term="windows" scheme="https://espinz.com/categories/os/windows/"/>
     
     
-      <category term="windows" scheme="https://espinz.com/tags/windows/"/>
-    
       <category term="server" scheme="https://espinz.com/tags/server/"/>
+    
+      <category term="windows" scheme="https://espinz.com/tags/windows/"/>
     
   </entry>
   
@@ -162,12 +189,7 @@
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;A small refresher.&lt;/p&gt;
-&lt;script src=&quot;//gist.github.com/73851d113dc4fb75e5ee808b48f5cc06.js&quot;&gt;&lt;/script&gt;
-
-      
+      A small refresher.
     
     </summary>
     
@@ -191,7 +213,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;Some ssh recipes.&lt;/p&gt;
+      Some ssh recipes.
     
     </summary>
     
@@ -217,7 +239,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;Some vim recipes.&lt;/p&gt;
+      Some vim recipes.
     
     </summary>
     
@@ -241,10 +263,7 @@
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;Just finished up on aliases and environment variables. Moving on to shell configuration and command redirection. I might order the compTI
-      
+      Just finished up on aliases and environment variables. Moving on to shell configuration and command redirection. I might order the compTIA certmaster learn for Linux+. I feel like my studying is going fine but after reviewing their program layout, I might be able to speed up the process if I use the
     
     </summary>
     
@@ -268,13 +287,9 @@
     
     <summary type="html">
     
-      
-      
-        &lt;blockquote&gt;
-&lt;p&gt;Spring cleaning, Summer air out, Fall sweeping?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This site has three errors: dead URL links which read 4
-      
+      Spring cleaning, Summer air out, Fall sweeping?
+
+This site has three errors: dead URL links which read 404. I find it very strange because the on the development server everything is up and running. I suppose it’s a perfect time to say “it works on my machine!”. Maybe a force update will help it rec
     
     </summary>
     
@@ -298,11 +313,7 @@
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;I had files that were exploded across the filesystem. My goal was to find them all.&lt;/p&gt;
-&lt;script src=&quot;//gist.github.com/8d0bb9197d45dfecfb
-      
+      I had files that were exploded across the filesystem. My goal was to find them all.
     
     </summary>
     
@@ -330,10 +341,9 @@
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;Just installed  Ubuntu 19.10 via VMware easy install. The reason behind the installation is for practice labs. Ubuntu 19.10 might be a li
-      
+      Just installed Ubuntu 19.10 via VMware easy install. The reason behind the installation is for practice labs. Ubuntu 19.10 might be a little too new for practice labs but we will see. Speaking of seeing, watch me set and unset an environment variable on the newly installed OS! 
+
+BONUS: the output of
     
     </summary>
     
@@ -359,11 +369,7 @@
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;The flash cards are piling up!&lt;/p&gt;
-
-      
+      The flash cards are piling up!
     
     </summary>
     
@@ -383,7 +389,7 @@
     <link href="https://espinz.com/2019/10/09/editorslikevi,vimandnano.html"/>
     <id>https://espinz.com/2019/10/09/editorslikevi,vimandnano.html</id>
     <published>2019-10-10T02:00:24.000Z</published>
-    <updated>2019-12-08T23:33:23.218Z</updated>
+    <updated>2020-01-04T01:51:13.333Z</updated>
     
     <content type="html"><![CDATA[<p>This week is all about editors: I am studying nano and vim. I do not have much to report on besides that.</p><a id="more"></a><p>I already know most of the basics in regards to vim. Nano — I know nothing. Most of the commands are at the bottom but in order to prepare myself for compTIA’s Linux+ I really should know them both like the back of my hand; I really don’t know what the back of my hand looks like but I hope that makes sense. </p><p>Actually, I write all my blog post in vim. Ever since my first post — all in vim. All my studying is done in GNU Emacs. I am thankful they don’t test for GNU Emacs because the learning curve on that one, at least for me, is very steep; I constantly have a cheat sheet near by every time I open it. Which is always because it is a program that is always open on my system. </p>]]></content>
     
@@ -521,7 +527,11 @@
     
     <summary type="html">
     
-      &lt;p&gt;I couldn’t resist. What can I say — I’m weak!: I setup a GNS3 network topology!&lt;/p&gt;
+      I couldn’t resist. What can I say — I’m weak!: I setup a GNS3 network topology!
+
+
+
+For some context, I will explain how this happened. I started reading about something called CCNA Routing and Switching (Cisco Certified Network Associate). I seen some videos of people using a virtual network simulat
     
     </summary>
     
@@ -531,33 +541,6 @@
     
     
       <category term="network" scheme="https://espinz.com/tags/network/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Variables</title>
-    <link href="https://espinz.com/2019/09/24/variables.html"/>
-    <id>https://espinz.com/2019/09/24/variables.html</id>
-    <published>2019-09-24T21:00:45.000Z</published>
-    <updated>2019-11-09T19:05:34.619Z</updated>
-    
-    <content type="html"><![CDATA[<p>Environment, shell, user and local variables. An important rule I learned today is how to name local variables; always use a lower case naming convention to avoid overwriting environment or shell variables.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Environment, shell, user and local variables. An important rule I learned today is how to name local variables; always use a lower case n
-      
-    
-    </summary>
-    
-      <category term="terminal" scheme="https://espinz.com/categories/terminal/"/>
-    
-      <category term="shell" scheme="https://espinz.com/categories/terminal/shell/"/>
-    
-    
-      <category term="Bash" scheme="https://espinz.com/tags/Bash/"/>
     
   </entry>
   

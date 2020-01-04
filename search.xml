@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>RDP DHCP and Firewall Scope</title>
+      <link href="/2020/01/03/rDPdHCPandfirewallscope.html"/>
+      <url>/2020/01/03/rDPdHCPandfirewallscope.html</url>
+      
+        <content type="html"><![CDATA[<p>Well, if any one is wondering how I “fixed” the RDP error 204 problem — I didn’t. There was nothing to fix. I just forgot that I added a scope to the windows firewall: only one IP address would connect to the server via RDP. When DHCP assigned a new address to the client that new address was locked out.</p><h1 id="Using-DHCP-with-manual-address"><a href="#Using-DHCP-with-manual-address" class="headerlink" title="Using DHCP with manual address"></a>Using DHCP with manual address</h1><p>Adding a manual address “fixed” the problem.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> os </category>
+          
+          <category> windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> RDP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>New Year</title>
       <link href="/2020/01/02/newyear.html"/>
       <url>/2020/01/02/newyear.html</url>
@@ -103,9 +130,9 @@
       
         <tags>
             
-            <tag> windows </tag>
-            
             <tag> server </tag>
+            
+            <tag> windows </tag>
             
         </tags>
       
@@ -638,11 +665,11 @@
             
             <tag> bash </tag>
             
-            <tag> windows </tag>
-            
             <tag> docker </tag>
             
             <tag> docker-machine </tag>
+            
+            <tag> windows </tag>
             
         </tags>
       
@@ -1411,9 +1438,9 @@
       
         <tags>
             
-            <tag> server </tag>
-            
             <tag> supermicro </tag>
+            
+            <tag> server </tag>
             
         </tags>
       
