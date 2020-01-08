@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://espinz.com/"/>
-  <updated>2020-01-04T01:46:24.631Z</updated>
+  <updated>2020-01-08T04:44:38.680Z</updated>
   <id>https://espinz.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Dear Diary</title>
+    <link href="https://espinz.com/2020/01/07/deardiary.html"/>
+    <id>https://espinz.com/2020/01/07/deardiary.html</id>
+    <published>2020-01-08T04:00:58.000Z</published>
+    <updated>2020-01-08T04:44:38.680Z</updated>
+    
+    <content type="html"><![CDATA[<p>Guess what I completed today! Sweet!</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Guess what I completed today! Sweet!&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="unique" scheme="https://espinz.com/categories/unique/"/>
+    
+      <category term="thought" scheme="https://espinz.com/categories/unique/thought/"/>
+    
+    
+      <category term="thought" scheme="https://espinz.com/tags/thought/"/>
+    
+  </entry>
   
   <entry>
     <title>RDP DHCP and Firewall Scope</title>
@@ -363,13 +391,17 @@ BONUS: the output of
     <link href="https://espinz.com/2019/10/17/somanyflashcards.html"/>
     <id>https://espinz.com/2019/10/17/somanyflashcards.html</id>
     <published>2019-10-18T00:00:32.000Z</published>
-    <updated>2019-12-08T23:33:23.222Z</updated>
+    <updated>2020-01-08T04:43:44.163Z</updated>
     
     <content type="html"><![CDATA[<p>The flash cards are piling up!</p>]]></content>
     
     <summary type="html">
     
-      The flash cards are piling up!
+      
+      
+        &lt;p&gt;The flash cards are piling up!&lt;/p&gt;
+
+      
     
     </summary>
     
@@ -513,34 +545,6 @@ BONUS: the output of
     
     
       <category term="thought" scheme="https://espinz.com/tags/thought/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Too much fun</title>
-    <link href="https://espinz.com/2019/09/27/toomuchfun.html"/>
-    <id>https://espinz.com/2019/09/27/toomuchfun.html</id>
-    <published>2019-09-27T17:00:13.000Z</published>
-    <updated>2019-12-09T00:19:45.292Z</updated>
-    
-    <content type="html"><![CDATA[<p>I couldn’t resist. What can I say — I’m weak!: I setup a GNS3 network topology!</p><a id="more"></a><p><img src="/images/FirstLab.png" alt="First Lab"><br><img src="/images/consoleConnect.gif" alt="First Ping"><br>For some context, I will explain how this happened. I started reading about something called CCNA Routing and Switching (Cisco Certified Network Associate). I seen some videos of people using a virtual network simulator called GNS3. Call it fate, coincidence or a small world but I was working with Python and pyQT just last week; GNS3 is built with python and pyQT. I didn’t feel the need to write about what I was working on because it was, and still is, an experimental side project for this site. I am still using dialog for bash, and some python; and right now, it is still a spaghetti of a mess that I am scared to touch at the moment. So, I decided to relieve some stress and connect a router, switch and two computers. Simple enough, right?</p><h1 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h1><p>So far I’m trying to juggle bash, python, pyQT, Linux+, and now CCNA? If I were to rate which one is considered play and which is considered work I would say, from play to work, networking (because I love hardware — I think), GNU/Linux then Programming. I will be honest. I am lazy. I hate working hence why my programming is always — <code>infinity=∞; sleep $infinity</code>?</p><p>I claimed I would drop everything and only work/play (it is work/play because it is in the middle of my rating system) for the Linux+ exam but failed to balance it all this week. </p><p>To justify my networking play, I suppose it could be viewed as a little reward for working so hard; and if that is the case, I should probably get back to <del>studying</del> “working” so I can accrue more playing time.</p>]]></content>
-    
-    <summary type="html">
-    
-      I couldn’t resist. What can I say — I’m weak!: I setup a GNS3 network topology!
-
-
-
-For some context, I will explain how this happened. I started reading about something called CCNA Routing and Switching (Cisco Certified Network Associate). I seen some videos of people using a virtual network simulat
-    
-    </summary>
-    
-      <category term="unique" scheme="https://espinz.com/categories/unique/"/>
-    
-      <category term="thought" scheme="https://espinz.com/categories/unique/thought/"/>
-    
-    
-      <category term="network" scheme="https://espinz.com/tags/network/"/>
     
   </entry>
   

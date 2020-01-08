@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Dear Diary</title>
+      <link href="/2020/01/07/deardiary.html"/>
+      <url>/2020/01/07/deardiary.html</url>
+      
+        <content type="html"><![CDATA[<p>Guess what I completed today! Sweet!</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> unique </category>
+          
+          <category> thought </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> thought </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>RDP DHCP and Firewall Scope</title>
       <link href="/2020/01/03/rDPdHCPandfirewallscope.html"/>
       <url>/2020/01/03/rDPdHCPandfirewallscope.html</url>
